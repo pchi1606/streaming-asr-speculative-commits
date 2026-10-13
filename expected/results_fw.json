@@ -1,0 +1,611 @@
+{
+ "engine": "fw",
+ "n_corpus": 120,
+ "n_included": 107,
+ "n_excluded": 13,
+ "excluded": [
+  [
+   "s2-0039",
+   "final parse mismatch: 'Send the report to Aaron.' -> None"
+  ],
+  [
+   "s2-0079",
+   "final parse mismatch: 'Book a flight to Austin on Friday. Actually make that your cargo on Tuesday.' -> {'intent': 'book_flight', 'slots': {'dest': 'austin', 'day': 'tuesday'}}"
+  ],
+  [
+   "s2-0095",
+   "final parse mismatch: 'Send the report to Bob. I mean Aaron.' -> {'intent': 'send_report', 'slots': {'recipient': 'bob'}}"
+  ],
+  [
+   "s2-0143",
+   "final parse mismatch: 'Remind me to call Carol at 6pm. Sorry, call David 6pm.' -> {'intent': 'reminder', 'slots': {'task': 'call carol', 'time': 'six p m'}}"
+  ],
+  [
+   "s2-0272",
+   "final parse mismatch: 'Schedule a meeting with Frank, Erin and David 6pm on Sunday.' -> {'intent': 'schedule_meeting', 'slots': {'attendees': ['erin', 'frank'], 'time': 'six p m', 'day': 'sunday'}}"
+  ],
+  [
+   "s2-0292",
+   "final parse mismatch: 'Schedule a meeting with Frankt, Allison to Bob at 9am on Monday.' -> {'intent': 'schedule_meeting', 'slots': {'attendees': ['bob', 'frank'], 'time': 'nine a m', 'day': 'monday'}}"
+  ],
+  [
+   "s2-0298",
+   "final parse mismatch: 'Book flights to Seattle for Aaron and Alice on Thursday.' -> {'intent': 'book_flight', 'slots': {'dest': 'seattle', 'day': 'thursday'}}"
+  ],
+  [
+   "s2-0301",
+   "final parse mismatch: 'Book flights to Seattle for Barb and Alice on Tuesday.' -> {'intent': 'book_flight', 'slots': {'dest': 'seattle', 'day': 'tuesday'}}"
+  ],
+  [
+   "s2-0304",
+   "final parse mismatch: 'Bookflights to see atle for Bob and Frank on Tuesday.' -> None"
+  ],
+  [
+   "s2-0307",
+   "final parse mismatch: 'book flights to Boston for Aaron and Frank on Saturday.' -> {'intent': 'book_flight', 'slots': {'dest': 'boston', 'day': 'saturday'}}"
+  ],
+  [
+   "s2-0309",
+   "final parse mismatch: 'Book flights to Denver for Aaron and Frank on Sunday.' -> {'intent': 'book_flight', 'slots': {'dest': 'denver', 'day': 'sunday'}}"
+  ],
+  [
+   "s2-0310",
+   "final parse mismatch: 'book flights to Seattle for Aaron and Dave on Wednesday.' -> {'intent': 'book_flight', 'slots': {'dest': 'seattle', 'day': 'wednesday'}}"
+  ],
+  [
+   "s2-0313",
+   "final parse mismatch: 'Bookflates to Boston for Frank and Alice on Saturday.' -> None"
+  ]
+ ],
+ "revision_stats": {
+  "n_with_revision": 82,
+  "n_total": 107,
+  "by_cat": {
+   "A": {
+    "n": 19,
+    "rev": 14
+   },
+   "B": {
+    "n": 17,
+    "rev": 13
+   },
+   "C": {
+    "n": 20,
+    "rev": 13
+   },
+   "D": {
+    "n": 20,
+    "rev": 16
+   },
+   "E": {
+    "n": 11,
+    "rev": 8
+   },
+   "F": {
+    "n": 20,
+    "rev": 18
+   }
+  }
+ },
+ "perK": {
+  "1": {
+   "war": 0.2897196261682243,
+   "war_ci95": [
+    0.205607476635514,
+    0.37383177570093457
+   ],
+   "mean_saved_ms": 839.3457943925233,
+   "saved_ci95": [
+    676.5967289719625,
+    999.4343457943925
+   ],
+   "median_saved_ms": 438.0,
+   "frac_speculative": 1.0,
+   "cause_counts": {
+    "incompleteness": 22,
+    "instability": 9,
+    "null": 76
+   },
+   "p3_mean_actions": 1.3925233644859814,
+   "p3_first_wasted_rate": 0.2897196261682243,
+   "p3_final_correct_rate": 1.0,
+   "by_category": {
+    "A": {
+     "n": 19,
+     "war": 0.0,
+     "war_ci95": [
+      0.0,
+      0.0
+     ],
+     "mean_saved_ms": 354.7368421052632,
+     "cause_counts": {
+      "incompleteness": 0,
+      "instability": 0
+     }
+    },
+    "B": {
+     "n": 17,
+     "war": 0.9411764705882353,
+     "war_ci95": [
+      0.8235294117647058,
+      1.0
+     ],
+     "mean_saved_ms": 1569.8823529411766,
+     "cause_counts": {
+      "incompleteness": 11,
+      "instability": 5
+     }
+    },
+    "C": {
+     "n": 20,
+     "war": 0.0,
+     "war_ci95": [
+      0.0,
+      0.0
+     ],
+     "mean_saved_ms": 1114.25,
+     "cause_counts": {
+      "incompleteness": 0,
+      "instability": 0
+     }
+    },
+    "D": {
+     "n": 20,
+     "war": 0.7,
+     "war_ci95": [
+      0.5,
+      0.9
+     ],
+     "mean_saved_ms": 1403.35,
+     "cause_counts": {
+      "incompleteness": 11,
+      "instability": 3
+     }
+    },
+    "E": {
+     "n": 11,
+     "war": 0.09090909090909091,
+     "war_ci95": [
+      0.0,
+      0.2727272727272727
+     ],
+     "mean_saved_ms": 175.45454545454547,
+     "cause_counts": {
+      "incompleteness": 0,
+      "instability": 1
+     }
+    },
+    "F": {
+     "n": 20,
+     "war": 0.0,
+     "war_ci95": [
+      0.0,
+      0.0
+     ],
+     "mean_saved_ms": 205.0,
+     "cause_counts": {
+      "incompleteness": 0,
+      "instability": 0
+     }
+    }
+   }
+  },
+  "2": {
+   "war": 0.21495327102803738,
+   "war_ci95": [
+    0.14018691588785046,
+    0.2897196261682243
+   ],
+   "mean_saved_ms": 338.0093457943925,
+   "saved_ci95": [
+    241.10233644859815,
+    436.8184579439251
+   ],
+   "median_saved_ms": 0.0,
+   "frac_speculative": 1.0,
+   "cause_counts": {
+    "incompleteness": 10,
+    "instability": 13,
+    "null": 84
+   },
+   "p3_mean_actions": 1.233644859813084,
+   "p3_first_wasted_rate": 0.21495327102803738,
+   "p3_final_correct_rate": 1.0,
+   "by_category": {
+    "A": {
+     "n": 19,
+     "war": 0.0,
+     "war_ci95": [
+      0.0,
+      0.0
+     ],
+     "mean_saved_ms": 35.36842105263158,
+     "cause_counts": {
+      "incompleteness": 0,
+      "instability": 0
+     }
+    },
+    "B": {
+     "n": 17,
+     "war": 0.5294117647058824,
+     "war_ci95": [
+      0.29411764705882354,
+      0.7647058823529411
+     ],
+     "mean_saved_ms": 855.5294117647059,
+     "cause_counts": {
+      "incompleteness": 5,
+      "instability": 4
+     }
+    },
+    "C": {
+     "n": 20,
+     "war": 0.0,
+     "war_ci95": [
+      0.0,
+      0.0
+     ],
+     "mean_saved_ms": 510.15,
+     "cause_counts": {
+      "incompleteness": 0,
+      "instability": 0
+     }
+    },
+    "D": {
+     "n": 20,
+     "war": 0.7,
+     "war_ci95": [
+      0.5,
+      0.9
+     ],
+     "mean_saved_ms": 537.4,
+     "cause_counts": {
+      "incompleteness": 5,
+      "instability": 9
+     }
+    },
+    "E": {
+     "n": 11,
+     "war": 0.0,
+     "war_ci95": [
+      0.0,
+      0.0
+     ],
+     "mean_saved_ms": 0.0,
+     "cause_counts": {
+      "incompleteness": 0,
+      "instability": 0
+     }
+    },
+    "F": {
+     "n": 20,
+     "war": 0.0,
+     "war_ci95": [
+      0.0,
+      0.0
+     ],
+     "mean_saved_ms": 0.0,
+     "cause_counts": {
+      "incompleteness": 0,
+      "instability": 0
+     }
+    }
+   }
+  },
+  "3": {
+   "war": 0.056074766355140186,
+   "war_ci95": [
+    0.018691588785046728,
+    0.102803738317757
+   ],
+   "mean_saved_ms": 62.85981308411215,
+   "saved_ci95": [
+    24.99322429906542,
+    110.6434579439252
+   ],
+   "median_saved_ms": 0.0,
+   "frac_speculative": 0.7009345794392523,
+   "cause_counts": {
+    "incompleteness": 4,
+    "instability": 2,
+    "null": 101
+   },
+   "p3_mean_actions": 1.0560747663551402,
+   "p3_first_wasted_rate": 0.056074766355140186,
+   "p3_final_correct_rate": 1.0,
+   "by_category": {
+    "A": {
+     "n": 19,
+     "war": 0.0,
+     "war_ci95": [
+      0.0,
+      0.0
+     ],
+     "mean_saved_ms": 0.0,
+     "cause_counts": {
+      "incompleteness": 0,
+      "instability": 0
+     }
+    },
+    "B": {
+     "n": 17,
+     "war": 0.35294117647058826,
+     "war_ci95": [
+      0.11764705882352941,
+      0.5882352941176471
+     ],
+     "mean_saved_ms": 328.7647058823529,
+     "cause_counts": {
+      "incompleteness": 4,
+      "instability": 2
+     }
+    },
+    "C": {
+     "n": 20,
+     "war": 0.0,
+     "war_ci95": [
+      0.0,
+      0.0
+     ],
+     "mean_saved_ms": 56.85,
+     "cause_counts": {
+      "incompleteness": 0,
+      "instability": 0
+     }
+    },
+    "D": {
+     "n": 20,
+     "war": 0.0,
+     "war_ci95": [
+      0.0,
+      0.0
+     ],
+     "mean_saved_ms": 0.0,
+     "cause_counts": {
+      "incompleteness": 0,
+      "instability": 0
+     }
+    },
+    "E": {
+     "n": 11,
+     "war": 0.0,
+     "war_ci95": [
+      0.0,
+      0.0
+     ],
+     "mean_saved_ms": 0.0,
+     "cause_counts": {
+      "incompleteness": 0,
+      "instability": 0
+     }
+    },
+    "F": {
+     "n": 20,
+     "war": 0.0,
+     "war_ci95": [
+      0.0,
+      0.0
+     ],
+     "mean_saved_ms": 0.0,
+     "cause_counts": {
+      "incompleteness": 0,
+      "instability": 0
+     }
+    }
+   }
+  },
+  "4": {
+   "war": 0.0,
+   "war_ci95": [
+    0.0,
+    0.0
+   ],
+   "mean_saved_ms": 0.0,
+   "saved_ci95": [
+    0.0,
+    0.0
+   ],
+   "median_saved_ms": 0.0,
+   "frac_speculative": 0.19626168224299065,
+   "cause_counts": {
+    "incompleteness": 0,
+    "instability": 0,
+    "null": 107
+   },
+   "p3_mean_actions": 1.0,
+   "p3_first_wasted_rate": 0.0,
+   "p3_final_correct_rate": 1.0,
+   "by_category": {
+    "A": {
+     "n": 19,
+     "war": 0.0,
+     "war_ci95": [
+      0.0,
+      0.0
+     ],
+     "mean_saved_ms": 0.0,
+     "cause_counts": {
+      "incompleteness": 0,
+      "instability": 0
+     }
+    },
+    "B": {
+     "n": 17,
+     "war": 0.0,
+     "war_ci95": [
+      0.0,
+      0.0
+     ],
+     "mean_saved_ms": 0.0,
+     "cause_counts": {
+      "incompleteness": 0,
+      "instability": 0
+     }
+    },
+    "C": {
+     "n": 20,
+     "war": 0.0,
+     "war_ci95": [
+      0.0,
+      0.0
+     ],
+     "mean_saved_ms": 0.0,
+     "cause_counts": {
+      "incompleteness": 0,
+      "instability": 0
+     }
+    },
+    "D": {
+     "n": 20,
+     "war": 0.0,
+     "war_ci95": [
+      0.0,
+      0.0
+     ],
+     "mean_saved_ms": 0.0,
+     "cause_counts": {
+      "incompleteness": 0,
+      "instability": 0
+     }
+    },
+    "E": {
+     "n": 11,
+     "war": 0.0,
+     "war_ci95": [
+      0.0,
+      0.0
+     ],
+     "mean_saved_ms": 0.0,
+     "cause_counts": {
+      "incompleteness": 0,
+      "instability": 0
+     }
+    },
+    "F": {
+     "n": 20,
+     "war": 0.0,
+     "war_ci95": [
+      0.0,
+      0.0
+     ],
+     "mean_saved_ms": 0.0,
+     "cause_counts": {
+      "incompleteness": 0,
+      "instability": 0
+     }
+    }
+   }
+  },
+  "5": {
+   "war": 0.0,
+   "war_ci95": [
+    0.0,
+    0.0
+   ],
+   "mean_saved_ms": 0.0,
+   "saved_ci95": [
+    0.0,
+    0.0
+   ],
+   "median_saved_ms": 0.0,
+   "frac_speculative": 0.07476635514018691,
+   "cause_counts": {
+    "incompleteness": 0,
+    "instability": 0,
+    "null": 107
+   },
+   "p3_mean_actions": 1.0,
+   "p3_first_wasted_rate": 0.0,
+   "p3_final_correct_rate": 1.0,
+   "by_category": {
+    "A": {
+     "n": 19,
+     "war": 0.0,
+     "war_ci95": [
+      0.0,
+      0.0
+     ],
+     "mean_saved_ms": 0.0,
+     "cause_counts": {
+      "incompleteness": 0,
+      "instability": 0
+     }
+    },
+    "B": {
+     "n": 17,
+     "war": 0.0,
+     "war_ci95": [
+      0.0,
+      0.0
+     ],
+     "mean_saved_ms": 0.0,
+     "cause_counts": {
+      "incompleteness": 0,
+      "instability": 0
+     }
+    },
+    "C": {
+     "n": 20,
+     "war": 0.0,
+     "war_ci95": [
+      0.0,
+      0.0
+     ],
+     "mean_saved_ms": 0.0,
+     "cause_counts": {
+      "incompleteness": 0,
+      "instability": 0
+     }
+    },
+    "D": {
+     "n": 20,
+     "war": 0.0,
+     "war_ci95": [
+      0.0,
+      0.0
+     ],
+     "mean_saved_ms": 0.0,
+     "cause_counts": {
+      "incompleteness": 0,
+      "instability": 0
+     }
+    },
+    "E": {
+     "n": 11,
+     "war": 0.0,
+     "war_ci95": [
+      0.0,
+      0.0
+     ],
+     "mean_saved_ms": 0.0,
+     "cause_counts": {
+      "incompleteness": 0,
+      "instability": 0
+     }
+    },
+    "F": {
+     "n": 20,
+     "war": 0.0,
+     "war_ci95": [
+      0.0,
+      0.0
+     ],
+     "mean_saved_ms": 0.0,
+     "cause_counts": {
+      "incompleteness": 0,
+      "instability": 0
+     }
+    }
+   }
+  }
+ },
+ "field_error_profile_K2": {
+  "dest": 3,
+  "day": 10,
+  "account": 5,
+  "task": 1,
+  "tod": 2,
+  "cc": 5
+ },
+ "mean_audio_s": 3.214852083333333
+}

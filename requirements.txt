@@ -1,0 +1,4 @@
+numpy
+matplotlib
+vosk==0.3.45
+faster-whisper==1.2.1

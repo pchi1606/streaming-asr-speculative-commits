@@ -1,0 +1,360 @@
+{"id": "s2-0001", "category": "A", "text": "Book a flight to chicago on monday.", "intent": "book_flight", "slots": {"dest": "chicago", "day": "monday"}}
+{"id": "s2-0002", "category": "A", "text": "Book a flight to seattle on thursday.", "intent": "book_flight", "slots": {"dest": "seattle", "day": "thursday"}}
+{"id": "s2-0003", "category": "A", "text": "Book a flight to seattle on friday.", "intent": "book_flight", "slots": {"dest": "seattle", "day": "friday"}}
+{"id": "s2-0004", "category": "A", "text": "Book a flight to chicago on sunday.", "intent": "book_flight", "slots": {"dest": "chicago", "day": "sunday"}}
+{"id": "s2-0005", "category": "A", "text": "Book a flight to miami on saturday.", "intent": "book_flight", "slots": {"dest": "miami", "day": "saturday"}}
+{"id": "s2-0006", "category": "A", "text": "Book a flight to miami on tuesday.", "intent": "book_flight", "slots": {"dest": "miami", "day": "tuesday"}}
+{"id": "s2-0007", "category": "A", "text": "Book a flight to denver on tuesday.", "intent": "book_flight", "slots": {"dest": "denver", "day": "tuesday"}}
+{"id": "s2-0008", "category": "A", "text": "Book a flight to denver on friday.", "intent": "book_flight", "slots": {"dest": "denver", "day": "friday"}}
+{"id": "s2-0009", "category": "A", "text": "Book a flight to seattle on tuesday.", "intent": "book_flight", "slots": {"dest": "seattle", "day": "tuesday"}}
+{"id": "s2-0010", "category": "A", "text": "Book a flight to chicago on monday.", "intent": "book_flight", "slots": {"dest": "chicago", "day": "monday"}}
+{"id": "s2-0011", "category": "A", "text": "Book a flight to chicago on tuesday.", "intent": "book_flight", "slots": {"dest": "chicago", "day": "tuesday"}}
+{"id": "s2-0012", "category": "A", "text": "Book a flight to seattle on thursday.", "intent": "book_flight", "slots": {"dest": "seattle", "day": "thursday"}}
+{"id": "s2-0013", "category": "A", "text": "Book a flight to seattle on tuesday.", "intent": "book_flight", "slots": {"dest": "seattle", "day": "tuesday"}}
+{"id": "s2-0014", "category": "A", "text": "Book a flight to chicago on saturday.", "intent": "book_flight", "slots": {"dest": "chicago", "day": "saturday"}}
+{"id": "s2-0015", "category": "A", "text": "Book a flight to chicago on sunday.", "intent": "book_flight", "slots": {"dest": "chicago", "day": "sunday"}}
+{"id": "s2-0016", "category": "A", "text": "Transfer two hundred dollars to my savings account.", "intent": "transfer", "slots": {"amount": "two hundred", "account": "savings"}}
+{"id": "s2-0017", "category": "A", "text": "Transfer fifty dollars to my checking account.", "intent": "transfer", "slots": {"amount": "fifty", "account": "checking"}}
+{"id": "s2-0018", "category": "A", "text": "Transfer five hundred dollars to my checking account.", "intent": "transfer", "slots": {"amount": "five hundred", "account": "checking"}}
+{"id": "s2-0019", "category": "A", "text": "Transfer two hundred dollars to my savings account.", "intent": "transfer", "slots": {"amount": "two hundred", "account": "savings"}}
+{"id": "s2-0020", "category": "A", "text": "Transfer one thousand dollars to my checking account.", "intent": "transfer", "slots": {"amount": "one thousand", "account": "checking"}}
+{"id": "s2-0021", "category": "A", "text": "Transfer one thousand dollars to my checking account.", "intent": "transfer", "slots": {"amount": "one thousand", "account": "checking"}}
+{"id": "s2-0022", "category": "A", "text": "Transfer one thousand dollars to my checking account.", "intent": "transfer", "slots": {"amount": "one thousand", "account": "checking"}}
+{"id": "s2-0023", "category": "A", "text": "Transfer two hundred dollars to my savings account.", "intent": "transfer", "slots": {"amount": "two hundred", "account": "savings"}}
+{"id": "s2-0024", "category": "A", "text": "Transfer three hundred dollars to my checking account.", "intent": "transfer", "slots": {"amount": "three hundred", "account": "checking"}}
+{"id": "s2-0025", "category": "A", "text": "Transfer three hundred dollars to my savings account.", "intent": "transfer", "slots": {"amount": "three hundred", "account": "savings"}}
+{"id": "s2-0026", "category": "A", "text": "Transfer five hundred dollars to my checking account.", "intent": "transfer", "slots": {"amount": "five hundred", "account": "checking"}}
+{"id": "s2-0027", "category": "A", "text": "Transfer three hundred dollars to my checking account.", "intent": "transfer", "slots": {"amount": "three hundred", "account": "checking"}}
+{"id": "s2-0028", "category": "A", "text": "Transfer two hundred dollars to my savings account.", "intent": "transfer", "slots": {"amount": "two hundred", "account": "savings"}}
+{"id": "s2-0029", "category": "A", "text": "Transfer five hundred dollars to my checking account.", "intent": "transfer", "slots": {"amount": "five hundred", "account": "checking"}}
+{"id": "s2-0030", "category": "A", "text": "Transfer one thousand dollars to my checking account.", "intent": "transfer", "slots": {"amount": "one thousand", "account": "checking"}}
+{"id": "s2-0031", "category": "A", "text": "Send the report to frank.", "intent": "send_report", "slots": {"recipient": "frank"}}
+{"id": "s2-0032", "category": "A", "text": "Send the report to erin.", "intent": "send_report", "slots": {"recipient": "erin"}}
+{"id": "s2-0033", "category": "A", "text": "Send the report to frank.", "intent": "send_report", "slots": {"recipient": "frank"}}
+{"id": "s2-0034", "category": "A", "text": "Send the report to carol.", "intent": "send_report", "slots": {"recipient": "carol"}}
+{"id": "s2-0035", "category": "A", "text": "Send the report to frank.", "intent": "send_report", "slots": {"recipient": "frank"}}
+{"id": "s2-0036", "category": "A", "text": "Send the report to alice.", "intent": "send_report", "slots": {"recipient": "alice"}}
+{"id": "s2-0037", "category": "A", "text": "Send the report to bob.", "intent": "send_report", "slots": {"recipient": "bob"}}
+{"id": "s2-0038", "category": "A", "text": "Send the report to alice.", "intent": "send_report", "slots": {"recipient": "alice"}}
+{"id": "s2-0039", "category": "A", "text": "Send the report to erin.", "intent": "send_report", "slots": {"recipient": "erin"}}
+{"id": "s2-0040", "category": "A", "text": "Send the report to frank.", "intent": "send_report", "slots": {"recipient": "frank"}}
+{"id": "s2-0041", "category": "A", "text": "Set an alarm for nine a m tomorrow morning.", "intent": "set_alarm", "slots": {"time": "nine a m"}}
+{"id": "s2-0042", "category": "A", "text": "Set an alarm for nine a m tomorrow morning.", "intent": "set_alarm", "slots": {"time": "nine a m"}}
+{"id": "s2-0043", "category": "A", "text": "Set an alarm for eight a m tomorrow morning.", "intent": "set_alarm", "slots": {"time": "eight a m"}}
+{"id": "s2-0044", "category": "A", "text": "Set an alarm for nine a m tomorrow morning.", "intent": "set_alarm", "slots": {"time": "nine a m"}}
+{"id": "s2-0045", "category": "A", "text": "Set an alarm for four p m tomorrow morning.", "intent": "set_alarm", "slots": {"time": "four p m"}}
+{"id": "s2-0046", "category": "A", "text": "Set an alarm for eight a m tomorrow morning.", "intent": "set_alarm", "slots": {"time": "eight a m"}}
+{"id": "s2-0047", "category": "A", "text": "Set an alarm for nine a m tomorrow morning.", "intent": "set_alarm", "slots": {"time": "nine a m"}}
+{"id": "s2-0048", "category": "A", "text": "Set an alarm for eight a m tomorrow morning.", "intent": "set_alarm", "slots": {"time": "eight a m"}}
+{"id": "s2-0049", "category": "A", "text": "Set an alarm for nine a m tomorrow morning.", "intent": "set_alarm", "slots": {"time": "nine a m"}}
+{"id": "s2-0050", "category": "A", "text": "Set an alarm for five p m tomorrow morning.", "intent": "set_alarm", "slots": {"time": "five p m"}}
+{"id": "s2-0051", "category": "A", "text": "Remind me to call dave at five p m.", "intent": "reminder", "slots": {"task": "call dave", "time": "five p m"}}
+{"id": "s2-0052", "category": "A", "text": "Remind me to call erin at nine a m.", "intent": "reminder", "slots": {"task": "call erin", "time": "nine a m"}}
+{"id": "s2-0053", "category": "A", "text": "Remind me to call carol at four p m.", "intent": "reminder", "slots": {"task": "call carol", "time": "four p m"}}
+{"id": "s2-0054", "category": "A", "text": "Remind me to call dave at four p m.", "intent": "reminder", "slots": {"task": "call dave", "time": "four p m"}}
+{"id": "s2-0055", "category": "A", "text": "Remind me to call bob at nine a m.", "intent": "reminder", "slots": {"task": "call bob", "time": "nine a m"}}
+{"id": "s2-0056", "category": "A", "text": "Remind me to call carol at five p m.", "intent": "reminder", "slots": {"task": "call carol", "time": "five p m"}}
+{"id": "s2-0057", "category": "A", "text": "Remind me to call alice at nine a m.", "intent": "reminder", "slots": {"task": "call alice", "time": "nine a m"}}
+{"id": "s2-0058", "category": "A", "text": "Remind me to call alice at four p m.", "intent": "reminder", "slots": {"task": "call alice", "time": "four p m"}}
+{"id": "s2-0059", "category": "A", "text": "Remind me to call frank at five p m.", "intent": "reminder", "slots": {"task": "call frank", "time": "five p m"}}
+{"id": "s2-0060", "category": "A", "text": "Remind me to call erin at eight a m.", "intent": "reminder", "slots": {"task": "call erin", "time": "eight a m"}}
+{"id": "s2-0061", "category": "B", "text": "Book a flight to denver on saturday, actually make that seattle on friday.", "intent": "book_flight", "slots": {"dest": "seattle", "day": "friday"}}
+{"id": "s2-0062", "category": "B", "text": "Book a flight to boston on tuesday, actually make that chicago on friday.", "intent": "book_flight", "slots": {"dest": "chicago", "day": "friday"}}
+{"id": "s2-0063", "category": "B", "text": "Book a flight to austin on saturday, actually make that seattle on friday.", "intent": "book_flight", "slots": {"dest": "seattle", "day": "friday"}}
+{"id": "s2-0064", "category": "B", "text": "Book a flight to austin on wednesday, actually make that miami on sunday.", "intent": "book_flight", "slots": {"dest": "miami", "day": "sunday"}}
+{"id": "s2-0065", "category": "B", "text": "Book a flight to seattle on saturday, actually make that denver on sunday.", "intent": "book_flight", "slots": {"dest": "denver", "day": "sunday"}}
+{"id": "s2-0066", "category": "B", "text": "Book a flight to seattle on sunday, actually make that chicago on tuesday.", "intent": "book_flight", "slots": {"dest": "chicago", "day": "tuesday"}}
+{"id": "s2-0067", "category": "B", "text": "Book a flight to miami on saturday, actually make that seattle on thursday.", "intent": "book_flight", "slots": {"dest": "seattle", "day": "thursday"}}
+{"id": "s2-0068", "category": "B", "text": "Book a flight to denver on friday, actually make that miami on tuesday.", "intent": "book_flight", "slots": {"dest": "miami", "day": "tuesday"}}
+{"id": "s2-0069", "category": "B", "text": "Book a flight to chicago on saturday, actually make that boston on thursday.", "intent": "book_flight", "slots": {"dest": "boston", "day": "thursday"}}
+{"id": "s2-0070", "category": "B", "text": "Book a flight to chicago on tuesday, actually make that boston on saturday.", "intent": "book_flight", "slots": {"dest": "boston", "day": "saturday"}}
+{"id": "s2-0071", "category": "B", "text": "Book a flight to boston on saturday, actually make that austin on tuesday.", "intent": "book_flight", "slots": {"dest": "austin", "day": "tuesday"}}
+{"id": "s2-0072", "category": "B", "text": "Book a flight to miami on monday, actually make that seattle on tuesday.", "intent": "book_flight", "slots": {"dest": "seattle", "day": "tuesday"}}
+{"id": "s2-0073", "category": "B", "text": "Book a flight to miami on wednesday, actually make that boston on tuesday.", "intent": "book_flight", "slots": {"dest": "boston", "day": "tuesday"}}
+{"id": "s2-0074", "category": "B", "text": "Book a flight to boston on saturday, actually make that seattle on thursday.", "intent": "book_flight", "slots": {"dest": "seattle", "day": "thursday"}}
+{"id": "s2-0075", "category": "B", "text": "Book a flight to denver on saturday, actually make that chicago on tuesday.", "intent": "book_flight", "slots": {"dest": "chicago", "day": "tuesday"}}
+{"id": "s2-0076", "category": "B", "text": "Book a flight to seattle on friday, actually make that miami on monday.", "intent": "book_flight", "slots": {"dest": "miami", "day": "monday"}}
+{"id": "s2-0077", "category": "B", "text": "Book a flight to seattle on wednesday, actually make that boston on saturday.", "intent": "book_flight", "slots": {"dest": "boston", "day": "saturday"}}
+{"id": "s2-0078", "category": "B", "text": "Book a flight to boston on friday, actually make that austin on saturday.", "intent": "book_flight", "slots": {"dest": "austin", "day": "saturday"}}
+{"id": "s2-0079", "category": "B", "text": "Book a flight to austin on friday, actually make that chicago on tuesday.", "intent": "book_flight", "slots": {"dest": "chicago", "day": "tuesday"}}
+{"id": "s2-0080", "category": "B", "text": "Book a flight to boston on monday, actually make that denver on sunday.", "intent": "book_flight", "slots": {"dest": "denver", "day": "sunday"}}
+{"id": "s2-0081", "category": "B", "text": "Send the report to frank, I mean dave.", "intent": "send_report", "slots": {"recipient": "dave"}}
+{"id": "s2-0082", "category": "B", "text": "Send the report to frank, I mean carol.", "intent": "send_report", "slots": {"recipient": "carol"}}
+{"id": "s2-0083", "category": "B", "text": "Send the report to frank, I mean carol.", "intent": "send_report", "slots": {"recipient": "carol"}}
+{"id": "s2-0084", "category": "B", "text": "Send the report to erin, I mean carol.", "intent": "send_report", "slots": {"recipient": "carol"}}
+{"id": "s2-0085", "category": "B", "text": "Send the report to erin, I mean carol.", "intent": "send_report", "slots": {"recipient": "carol"}}
+{"id": "s2-0086", "category": "B", "text": "Send the report to bob, I mean carol.", "intent": "send_report", "slots": {"recipient": "carol"}}
+{"id": "s2-0087", "category": "B", "text": "Send the report to dave, I mean erin.", "intent": "send_report", "slots": {"recipient": "erin"}}
+{"id": "s2-0088", "category": "B", "text": "Send the report to dave, I mean frank.", "intent": "send_report", "slots": {"recipient": "frank"}}
+{"id": "s2-0089", "category": "B", "text": "Send the report to dave, I mean carol.", "intent": "send_report", "slots": {"recipient": "carol"}}
+{"id": "s2-0090", "category": "B", "text": "Send the report to dave, I mean alice.", "intent": "send_report", "slots": {"recipient": "alice"}}
+{"id": "s2-0091", "category": "B", "text": "Send the report to dave, I mean alice.", "intent": "send_report", "slots": {"recipient": "alice"}}
+{"id": "s2-0092", "category": "B", "text": "Send the report to dave, I mean alice.", "intent": "send_report", "slots": {"recipient": "alice"}}
+{"id": "s2-0093", "category": "B", "text": "Send the report to bob, I mean carol.", "intent": "send_report", "slots": {"recipient": "carol"}}
+{"id": "s2-0094", "category": "B", "text": "Send the report to bob, I mean frank.", "intent": "send_report", "slots": {"recipient": "frank"}}
+{"id": "s2-0095", "category": "B", "text": "Send the report to bob, I mean erin.", "intent": "send_report", "slots": {"recipient": "erin"}}
+{"id": "s2-0096", "category": "B", "text": "Send the report to bob, I mean carol.", "intent": "send_report", "slots": {"recipient": "carol"}}
+{"id": "s2-0097", "category": "B", "text": "Send the report to frank, I mean dave.", "intent": "send_report", "slots": {"recipient": "dave"}}
+{"id": "s2-0098", "category": "B", "text": "Send the report to erin, I mean alice.", "intent": "send_report", "slots": {"recipient": "alice"}}
+{"id": "s2-0099", "category": "B", "text": "Send the report to carol, I mean alice.", "intent": "send_report", "slots": {"recipient": "alice"}}
+{"id": "s2-0100", "category": "B", "text": "Send the report to dave, I mean frank.", "intent": "send_report", "slots": {"recipient": "frank"}}
+{"id": "s2-0101", "category": "B", "text": "Transfer one thousand dollars to my checking account, no wait, to my savings account.", "intent": "transfer", "slots": {"amount": "one thousand", "account": "savings"}}
+{"id": "s2-0102", "category": "B", "text": "Transfer two hundred dollars to my savings account, no wait, to my checking account.", "intent": "transfer", "slots": {"amount": "two hundred", "account": "checking"}}
+{"id": "s2-0103", "category": "B", "text": "Transfer two hundred dollars to my checking account, no wait, to my savings account.", "intent": "transfer", "slots": {"amount": "two hundred", "account": "savings"}}
+{"id": "s2-0104", "category": "B", "text": "Transfer two hundred dollars to my checking account, no wait, to my savings account.", "intent": "transfer", "slots": {"amount": "two hundred", "account": "savings"}}
+{"id": "s2-0105", "category": "B", "text": "Transfer fifty dollars to my savings account, no wait, to my checking account.", "intent": "transfer", "slots": {"amount": "fifty", "account": "checking"}}
+{"id": "s2-0106", "category": "B", "text": "Transfer three hundred dollars to my savings account, no wait, to my checking account.", "intent": "transfer", "slots": {"amount": "three hundred", "account": "checking"}}
+{"id": "s2-0107", "category": "B", "text": "Transfer one thousand dollars to my checking account, no wait, to my savings account.", "intent": "transfer", "slots": {"amount": "one thousand", "account": "savings"}}
+{"id": "s2-0108", "category": "B", "text": "Transfer five hundred dollars to my savings account, no wait, to my checking account.", "intent": "transfer", "slots": {"amount": "five hundred", "account": "checking"}}
+{"id": "s2-0109", "category": "B", "text": "Transfer two hundred dollars to my checking account, no wait, to my savings account.", "intent": "transfer", "slots": {"amount": "two hundred", "account": "savings"}}
+{"id": "s2-0110", "category": "B", "text": "Transfer five hundred dollars to my checking account, no wait, to my savings account.", "intent": "transfer", "slots": {"amount": "five hundred", "account": "savings"}}
+{"id": "s2-0111", "category": "B", "text": "Transfer five hundred dollars to my savings account, no wait, to my checking account.", "intent": "transfer", "slots": {"amount": "five hundred", "account": "checking"}}
+{"id": "s2-0112", "category": "B", "text": "Transfer one thousand dollars to my savings account, no wait, to my checking account.", "intent": "transfer", "slots": {"amount": "one thousand", "account": "checking"}}
+{"id": "s2-0113", "category": "B", "text": "Transfer fifty dollars to my checking account, no wait, to my savings account.", "intent": "transfer", "slots": {"amount": "fifty", "account": "savings"}}
+{"id": "s2-0114", "category": "B", "text": "Transfer one thousand dollars to my savings account, no wait, to my checking account.", "intent": "transfer", "slots": {"amount": "one thousand", "account": "checking"}}
+{"id": "s2-0115", "category": "B", "text": "Transfer two hundred dollars to my checking account, no wait, to my savings account.", "intent": "transfer", "slots": {"amount": "two hundred", "account": "savings"}}
+{"id": "s2-0116", "category": "B", "text": "Transfer five hundred dollars to my savings account, no wait, to my checking account.", "intent": "transfer", "slots": {"amount": "five hundred", "account": "checking"}}
+{"id": "s2-0117", "category": "B", "text": "Transfer five hundred dollars to my savings account, no wait, to my checking account.", "intent": "transfer", "slots": {"amount": "five hundred", "account": "checking"}}
+{"id": "s2-0118", "category": "B", "text": "Transfer two hundred dollars to my savings account, no wait, to my checking account.", "intent": "transfer", "slots": {"amount": "two hundred", "account": "checking"}}
+{"id": "s2-0119", "category": "B", "text": "Transfer fifty dollars to my checking account, no wait, to my savings account.", "intent": "transfer", "slots": {"amount": "fifty", "account": "savings"}}
+{"id": "s2-0120", "category": "B", "text": "Transfer five hundred dollars to my savings account, no wait, to my checking account.", "intent": "transfer", "slots": {"amount": "five hundred", "account": "checking"}}
+{"id": "s2-0121", "category": "B", "text": "Set an alarm for eight a m, no, for six p m.", "intent": "set_alarm", "slots": {"time": "six p m"}}
+{"id": "s2-0122", "category": "B", "text": "Set an alarm for six p m, no, for eight a m.", "intent": "set_alarm", "slots": {"time": "eight a m"}}
+{"id": "s2-0123", "category": "B", "text": "Set an alarm for four p m, no, for eight a m.", "intent": "set_alarm", "slots": {"time": "eight a m"}}
+{"id": "s2-0124", "category": "B", "text": "Set an alarm for nine a m, no, for eight a m.", "intent": "set_alarm", "slots": {"time": "eight a m"}}
+{"id": "s2-0125", "category": "B", "text": "Set an alarm for nine a m, no, for five p m.", "intent": "set_alarm", "slots": {"time": "five p m"}}
+{"id": "s2-0126", "category": "B", "text": "Set an alarm for four p m, no, for six p m.", "intent": "set_alarm", "slots": {"time": "six p m"}}
+{"id": "s2-0127", "category": "B", "text": "Set an alarm for five p m, no, for seven a m.", "intent": "set_alarm", "slots": {"time": "seven a m"}}
+{"id": "s2-0128", "category": "B", "text": "Set an alarm for nine a m, no, for eight a m.", "intent": "set_alarm", "slots": {"time": "eight a m"}}
+{"id": "s2-0129", "category": "B", "text": "Set an alarm for nine a m, no, for four p m.", "intent": "set_alarm", "slots": {"time": "four p m"}}
+{"id": "s2-0130", "category": "B", "text": "Set an alarm for eight a m, no, for seven a m.", "intent": "set_alarm", "slots": {"time": "seven a m"}}
+{"id": "s2-0131", "category": "B", "text": "Set an alarm for nine a m, no, for seven a m.", "intent": "set_alarm", "slots": {"time": "seven a m"}}
+{"id": "s2-0132", "category": "B", "text": "Set an alarm for five p m, no, for six p m.", "intent": "set_alarm", "slots": {"time": "six p m"}}
+{"id": "s2-0133", "category": "B", "text": "Set an alarm for nine a m, no, for five p m.", "intent": "set_alarm", "slots": {"time": "five p m"}}
+{"id": "s2-0134", "category": "B", "text": "Set an alarm for five p m, no, for seven a m.", "intent": "set_alarm", "slots": {"time": "seven a m"}}
+{"id": "s2-0135", "category": "B", "text": "Set an alarm for seven a m, no, for five p m.", "intent": "set_alarm", "slots": {"time": "five p m"}}
+{"id": "s2-0136", "category": "B", "text": "Remind me to call dave at eight a m, sorry, call erin at eight a m.", "intent": "reminder", "slots": {"task": "call erin", "time": "eight a m"}}
+{"id": "s2-0137", "category": "B", "text": "Remind me to call alice at eight a m, sorry, call carol at eight a m.", "intent": "reminder", "slots": {"task": "call carol", "time": "eight a m"}}
+{"id": "s2-0138", "category": "B", "text": "Remind me to call frank at eight a m, sorry, call erin at eight a m.", "intent": "reminder", "slots": {"task": "call erin", "time": "eight a m"}}
+{"id": "s2-0139", "category": "B", "text": "Remind me to call alice at eight a m, sorry, call erin at eight a m.", "intent": "reminder", "slots": {"task": "call erin", "time": "eight a m"}}
+{"id": "s2-0140", "category": "B", "text": "Remind me to call carol at four p m, sorry, call alice at four p m.", "intent": "reminder", "slots": {"task": "call alice", "time": "four p m"}}
+{"id": "s2-0141", "category": "B", "text": "Remind me to call carol at six p m, sorry, call erin at six p m.", "intent": "reminder", "slots": {"task": "call erin", "time": "six p m"}}
+{"id": "s2-0142", "category": "B", "text": "Remind me to call bob at five p m, sorry, call dave at five p m.", "intent": "reminder", "slots": {"task": "call dave", "time": "five p m"}}
+{"id": "s2-0143", "category": "B", "text": "Remind me to call carol at six p m, sorry, call dave at six p m.", "intent": "reminder", "slots": {"task": "call dave", "time": "six p m"}}
+{"id": "s2-0144", "category": "B", "text": "Remind me to call frank at seven a m, sorry, call carol at seven a m.", "intent": "reminder", "slots": {"task": "call carol", "time": "seven a m"}}
+{"id": "s2-0145", "category": "B", "text": "Remind me to call erin at six p m, sorry, call alice at six p m.", "intent": "reminder", "slots": {"task": "call alice", "time": "six p m"}}
+{"id": "s2-0146", "category": "B", "text": "Remind me to call bob at five p m, sorry, call alice at five p m.", "intent": "reminder", "slots": {"task": "call alice", "time": "five p m"}}
+{"id": "s2-0147", "category": "B", "text": "Remind me to call carol at four p m, sorry, call alice at four p m.", "intent": "reminder", "slots": {"task": "call alice", "time": "four p m"}}
+{"id": "s2-0148", "category": "B", "text": "Remind me to call alice at six p m, sorry, call carol at six p m.", "intent": "reminder", "slots": {"task": "call carol", "time": "six p m"}}
+{"id": "s2-0149", "category": "B", "text": "Remind me to call frank at eight a m, sorry, call carol at eight a m.", "intent": "reminder", "slots": {"task": "call carol", "time": "eight a m"}}
+{"id": "s2-0150", "category": "B", "text": "Remind me to call frank at five p m, sorry, call bob at five p m.", "intent": "reminder", "slots": {"task": "call bob", "time": "five p m"}}
+{"id": "s2-0151", "category": "C", "text": "Transfer fifty dollars to my savings account, not my checking account.", "intent": "transfer", "slots": {"amount": "fifty", "account": "savings"}}
+{"id": "s2-0152", "category": "C", "text": "Transfer five hundred dollars to my checking account, not my savings account.", "intent": "transfer", "slots": {"amount": "five hundred", "account": "checking"}}
+{"id": "s2-0153", "category": "C", "text": "Transfer two hundred dollars to my checking account, not my savings account.", "intent": "transfer", "slots": {"amount": "two hundred", "account": "checking"}}
+{"id": "s2-0154", "category": "C", "text": "Transfer three hundred dollars to my savings account, not my checking account.", "intent": "transfer", "slots": {"amount": "three hundred", "account": "savings"}}
+{"id": "s2-0155", "category": "C", "text": "Transfer one thousand dollars to my checking account, not my savings account.", "intent": "transfer", "slots": {"amount": "one thousand", "account": "checking"}}
+{"id": "s2-0156", "category": "C", "text": "Transfer two hundred dollars to my checking account, not my savings account.", "intent": "transfer", "slots": {"amount": "two hundred", "account": "checking"}}
+{"id": "s2-0157", "category": "C", "text": "Transfer five hundred dollars to my checking account, not my savings account.", "intent": "transfer", "slots": {"amount": "five hundred", "account": "checking"}}
+{"id": "s2-0158", "category": "C", "text": "Transfer five hundred dollars to my checking account, not my savings account.", "intent": "transfer", "slots": {"amount": "five hundred", "account": "checking"}}
+{"id": "s2-0159", "category": "C", "text": "Transfer fifty dollars to my checking account, not my savings account.", "intent": "transfer", "slots": {"amount": "fifty", "account": "checking"}}
+{"id": "s2-0160", "category": "C", "text": "Transfer three hundred dollars to my savings account, not my checking account.", "intent": "transfer", "slots": {"amount": "three hundred", "account": "savings"}}
+{"id": "s2-0161", "category": "C", "text": "Transfer one thousand dollars to my checking account, not my savings account.", "intent": "transfer", "slots": {"amount": "one thousand", "account": "checking"}}
+{"id": "s2-0162", "category": "C", "text": "Transfer fifty dollars to my savings account, not my checking account.", "intent": "transfer", "slots": {"amount": "fifty", "account": "savings"}}
+{"id": "s2-0163", "category": "C", "text": "Transfer fifty dollars to my checking account, not my savings account.", "intent": "transfer", "slots": {"amount": "fifty", "account": "checking"}}
+{"id": "s2-0164", "category": "C", "text": "Transfer three hundred dollars to my checking account, not my savings account.", "intent": "transfer", "slots": {"amount": "three hundred", "account": "checking"}}
+{"id": "s2-0165", "category": "C", "text": "Transfer fifty dollars to my checking account, not my savings account.", "intent": "transfer", "slots": {"amount": "fifty", "account": "checking"}}
+{"id": "s2-0166", "category": "C", "text": "Transfer five hundred dollars to my checking account, not my savings account.", "intent": "transfer", "slots": {"amount": "five hundred", "account": "checking"}}
+{"id": "s2-0167", "category": "C", "text": "Transfer five hundred dollars to my savings account, not my checking account.", "intent": "transfer", "slots": {"amount": "five hundred", "account": "savings"}}
+{"id": "s2-0168", "category": "C", "text": "Transfer two hundred dollars to my savings account, not my checking account.", "intent": "transfer", "slots": {"amount": "two hundred", "account": "savings"}}
+{"id": "s2-0169", "category": "C", "text": "Transfer fifty dollars to my savings account, not my checking account.", "intent": "transfer", "slots": {"amount": "fifty", "account": "savings"}}
+{"id": "s2-0170", "category": "C", "text": "Transfer one thousand dollars to my checking account, not my savings account.", "intent": "transfer", "slots": {"amount": "one thousand", "account": "checking"}}
+{"id": "s2-0171", "category": "C", "text": "Book a flight to denver on saturday, not thursday.", "intent": "book_flight", "slots": {"dest": "denver", "day": "saturday"}}
+{"id": "s2-0172", "category": "C", "text": "Book a flight to seattle on tuesday, not saturday.", "intent": "book_flight", "slots": {"dest": "seattle", "day": "tuesday"}}
+{"id": "s2-0173", "category": "C", "text": "Book a flight to miami on wednesday, not thursday.", "intent": "book_flight", "slots": {"dest": "miami", "day": "wednesday"}}
+{"id": "s2-0174", "category": "C", "text": "Book a flight to boston on sunday, not thursday.", "intent": "book_flight", "slots": {"dest": "boston", "day": "sunday"}}
+{"id": "s2-0175", "category": "C", "text": "Book a flight to miami on saturday, not wednesday.", "intent": "book_flight", "slots": {"dest": "miami", "day": "saturday"}}
+{"id": "s2-0176", "category": "C", "text": "Book a flight to seattle on tuesday, not monday.", "intent": "book_flight", "slots": {"dest": "seattle", "day": "tuesday"}}
+{"id": "s2-0177", "category": "C", "text": "Book a flight to chicago on tuesday, not friday.", "intent": "book_flight", "slots": {"dest": "chicago", "day": "tuesday"}}
+{"id": "s2-0178", "category": "C", "text": "Book a flight to denver on sunday, not thursday.", "intent": "book_flight", "slots": {"dest": "denver", "day": "sunday"}}
+{"id": "s2-0179", "category": "C", "text": "Book a flight to denver on friday, not tuesday.", "intent": "book_flight", "slots": {"dest": "denver", "day": "friday"}}
+{"id": "s2-0180", "category": "C", "text": "Book a flight to austin on friday, not tuesday.", "intent": "book_flight", "slots": {"dest": "austin", "day": "friday"}}
+{"id": "s2-0181", "category": "C", "text": "Book a flight to seattle on wednesday, not thursday.", "intent": "book_flight", "slots": {"dest": "seattle", "day": "wednesday"}}
+{"id": "s2-0182", "category": "C", "text": "Book a flight to austin on monday, not thursday.", "intent": "book_flight", "slots": {"dest": "austin", "day": "monday"}}
+{"id": "s2-0183", "category": "C", "text": "Book a flight to denver on wednesday, not tuesday.", "intent": "book_flight", "slots": {"dest": "denver", "day": "wednesday"}}
+{"id": "s2-0184", "category": "C", "text": "Book a flight to denver on friday, not monday.", "intent": "book_flight", "slots": {"dest": "denver", "day": "friday"}}
+{"id": "s2-0185", "category": "C", "text": "Book a flight to austin on tuesday, not monday.", "intent": "book_flight", "slots": {"dest": "austin", "day": "tuesday"}}
+{"id": "s2-0186", "category": "C", "text": "Remind me to call alice, not bob, at six p m.", "intent": "reminder", "slots": {"task": "call alice", "time": "six p m"}}
+{"id": "s2-0187", "category": "C", "text": "Remind me to call erin, not alice, at nine a m.", "intent": "reminder", "slots": {"task": "call erin", "time": "nine a m"}}
+{"id": "s2-0188", "category": "C", "text": "Remind me to call frank, not erin, at five p m.", "intent": "reminder", "slots": {"task": "call frank", "time": "five p m"}}
+{"id": "s2-0189", "category": "C", "text": "Remind me to call erin, not bob, at nine a m.", "intent": "reminder", "slots": {"task": "call erin", "time": "nine a m"}}
+{"id": "s2-0190", "category": "C", "text": "Remind me to call frank, not dave, at four p m.", "intent": "reminder", "slots": {"task": "call frank", "time": "four p m"}}
+{"id": "s2-0191", "category": "C", "text": "Remind me to call carol, not frank, at eight a m.", "intent": "reminder", "slots": {"task": "call carol", "time": "eight a m"}}
+{"id": "s2-0192", "category": "C", "text": "Remind me to call frank, not carol, at nine a m.", "intent": "reminder", "slots": {"task": "call frank", "time": "nine a m"}}
+{"id": "s2-0193", "category": "C", "text": "Remind me to call carol, not frank, at six p m.", "intent": "reminder", "slots": {"task": "call carol", "time": "six p m"}}
+{"id": "s2-0194", "category": "C", "text": "Remind me to call bob, not carol, at four p m.", "intent": "reminder", "slots": {"task": "call bob", "time": "four p m"}}
+{"id": "s2-0195", "category": "C", "text": "Remind me to call erin, not carol, at seven a m.", "intent": "reminder", "slots": {"task": "call erin", "time": "seven a m"}}
+{"id": "s2-0196", "category": "C", "text": "Remind me to call dave, not erin, at six p m.", "intent": "reminder", "slots": {"task": "call dave", "time": "six p m"}}
+{"id": "s2-0197", "category": "C", "text": "Remind me to call erin, not frank, at five p m.", "intent": "reminder", "slots": {"task": "call erin", "time": "five p m"}}
+{"id": "s2-0198", "category": "C", "text": "Remind me to call alice, not dave, at five p m.", "intent": "reminder", "slots": {"task": "call alice", "time": "five p m"}}
+{"id": "s2-0199", "category": "C", "text": "Remind me to call bob, not erin, at four p m.", "intent": "reminder", "slots": {"task": "call bob", "time": "four p m"}}
+{"id": "s2-0200", "category": "C", "text": "Remind me to call erin, not dave, at four p m.", "intent": "reminder", "slots": {"task": "call erin", "time": "four p m"}}
+{"id": "s2-0201", "category": "C", "text": "Set an alarm for eight a m in the morning, not four p m.", "intent": "set_alarm", "slots": {"time": "eight a m"}}
+{"id": "s2-0202", "category": "C", "text": "Set an alarm for six p m in the morning, not eight a m.", "intent": "set_alarm", "slots": {"time": "six p m"}}
+{"id": "s2-0203", "category": "C", "text": "Set an alarm for nine a m in the morning, not four p m.", "intent": "set_alarm", "slots": {"time": "nine a m"}}
+{"id": "s2-0204", "category": "C", "text": "Set an alarm for five p m in the morning, not seven a m.", "intent": "set_alarm", "slots": {"time": "five p m"}}
+{"id": "s2-0205", "category": "C", "text": "Set an alarm for six p m in the morning, not nine a m.", "intent": "set_alarm", "slots": {"time": "six p m"}}
+{"id": "s2-0206", "category": "C", "text": "Set an alarm for eight a m in the morning, not four p m.", "intent": "set_alarm", "slots": {"time": "eight a m"}}
+{"id": "s2-0207", "category": "C", "text": "Set an alarm for four p m in the morning, not eight a m.", "intent": "set_alarm", "slots": {"time": "four p m"}}
+{"id": "s2-0208", "category": "C", "text": "Set an alarm for seven a m in the morning, not eight a m.", "intent": "set_alarm", "slots": {"time": "seven a m"}}
+{"id": "s2-0209", "category": "C", "text": "Set an alarm for nine a m in the morning, not eight a m.", "intent": "set_alarm", "slots": {"time": "nine a m"}}
+{"id": "s2-0210", "category": "C", "text": "Set an alarm for five p m in the morning, not nine a m.", "intent": "set_alarm", "slots": {"time": "five p m"}}
+{"id": "s2-0211", "category": "D", "text": "Book a flight to miami on monday morning, actually make it evening.", "intent": "book_flight", "slots": {"dest": "miami", "day": "monday", "tod": "evening"}}
+{"id": "s2-0212", "category": "D", "text": "Book a flight to austin on sunday evening, actually make it morning.", "intent": "book_flight", "slots": {"dest": "austin", "day": "sunday", "tod": "morning"}}
+{"id": "s2-0213", "category": "D", "text": "Book a flight to seattle on friday morning, actually make it evening.", "intent": "book_flight", "slots": {"dest": "seattle", "day": "friday", "tod": "evening"}}
+{"id": "s2-0214", "category": "D", "text": "Book a flight to denver on saturday morning, actually make it evening.", "intent": "book_flight", "slots": {"dest": "denver", "day": "saturday", "tod": "evening"}}
+{"id": "s2-0215", "category": "D", "text": "Book a flight to austin on tuesday evening, actually make it morning.", "intent": "book_flight", "slots": {"dest": "austin", "day": "tuesday", "tod": "morning"}}
+{"id": "s2-0216", "category": "D", "text": "Book a flight to denver on saturday morning, actually make it evening.", "intent": "book_flight", "slots": {"dest": "denver", "day": "saturday", "tod": "evening"}}
+{"id": "s2-0217", "category": "D", "text": "Book a flight to denver on friday evening, actually make it morning.", "intent": "book_flight", "slots": {"dest": "denver", "day": "friday", "tod": "morning"}}
+{"id": "s2-0218", "category": "D", "text": "Book a flight to denver on sunday morning, actually make it evening.", "intent": "book_flight", "slots": {"dest": "denver", "day": "sunday", "tod": "evening"}}
+{"id": "s2-0219", "category": "D", "text": "Book a flight to miami on monday morning, actually make it evening.", "intent": "book_flight", "slots": {"dest": "miami", "day": "monday", "tod": "evening"}}
+{"id": "s2-0220", "category": "D", "text": "Book a flight to boston on saturday morning, actually make it evening.", "intent": "book_flight", "slots": {"dest": "boston", "day": "saturday", "tod": "evening"}}
+{"id": "s2-0221", "category": "D", "text": "Book a flight to austin on monday morning, actually make it evening.", "intent": "book_flight", "slots": {"dest": "austin", "day": "monday", "tod": "evening"}}
+{"id": "s2-0222", "category": "D", "text": "Book a flight to denver on thursday evening, actually make it morning.", "intent": "book_flight", "slots": {"dest": "denver", "day": "thursday", "tod": "morning"}}
+{"id": "s2-0223", "category": "D", "text": "Book a flight to boston on sunday morning, actually make it evening.", "intent": "book_flight", "slots": {"dest": "boston", "day": "sunday", "tod": "evening"}}
+{"id": "s2-0224", "category": "D", "text": "Book a flight to seattle on tuesday morning, actually make it evening.", "intent": "book_flight", "slots": {"dest": "seattle", "day": "tuesday", "tod": "evening"}}
+{"id": "s2-0225", "category": "D", "text": "Book a flight to chicago on friday morning, actually make it evening.", "intent": "book_flight", "slots": {"dest": "chicago", "day": "friday", "tod": "evening"}}
+{"id": "s2-0226", "category": "D", "text": "Send the report to dave, and also copy carol.", "intent": "send_report", "slots": {"recipient": "dave", "cc": "carol"}}
+{"id": "s2-0227", "category": "D", "text": "Send the report to carol, and also copy erin.", "intent": "send_report", "slots": {"recipient": "carol", "cc": "erin"}}
+{"id": "s2-0228", "category": "D", "text": "Send the report to bob, and also copy erin.", "intent": "send_report", "slots": {"recipient": "bob", "cc": "erin"}}
+{"id": "s2-0229", "category": "D", "text": "Send the report to alice, and also copy frank.", "intent": "send_report", "slots": {"recipient": "alice", "cc": "frank"}}
+{"id": "s2-0230", "category": "D", "text": "Send the report to frank, and also copy alice.", "intent": "send_report", "slots": {"recipient": "frank", "cc": "alice"}}
+{"id": "s2-0231", "category": "D", "text": "Send the report to bob, and also copy dave.", "intent": "send_report", "slots": {"recipient": "bob", "cc": "dave"}}
+{"id": "s2-0232", "category": "D", "text": "Send the report to erin, and also copy alice.", "intent": "send_report", "slots": {"recipient": "erin", "cc": "alice"}}
+{"id": "s2-0233", "category": "D", "text": "Send the report to alice, and also copy bob.", "intent": "send_report", "slots": {"recipient": "alice", "cc": "bob"}}
+{"id": "s2-0234", "category": "D", "text": "Send the report to bob, and also copy frank.", "intent": "send_report", "slots": {"recipient": "bob", "cc": "frank"}}
+{"id": "s2-0235", "category": "D", "text": "Send the report to erin, and also copy dave.", "intent": "send_report", "slots": {"recipient": "erin", "cc": "dave"}}
+{"id": "s2-0236", "category": "D", "text": "Send the report to frank, and also copy erin.", "intent": "send_report", "slots": {"recipient": "frank", "cc": "erin"}}
+{"id": "s2-0237", "category": "D", "text": "Send the report to dave, and also copy frank.", "intent": "send_report", "slots": {"recipient": "dave", "cc": "frank"}}
+{"id": "s2-0238", "category": "D", "text": "Send the report to erin, and also copy carol.", "intent": "send_report", "slots": {"recipient": "erin", "cc": "carol"}}
+{"id": "s2-0239", "category": "D", "text": "Send the report to frank, and also copy bob.", "intent": "send_report", "slots": {"recipient": "frank", "cc": "bob"}}
+{"id": "s2-0240", "category": "D", "text": "Send the report to erin, and also copy alice.", "intent": "send_report", "slots": {"recipient": "erin", "cc": "alice"}}
+{"id": "s2-0241", "category": "D", "text": "Transfer three hundred dollars to my checking account on tuesday, change that to thursday.", "intent": "transfer", "slots": {"amount": "three hundred", "account": "checking", "day": "thursday"}}
+{"id": "s2-0242", "category": "D", "text": "Transfer three hundred dollars to my checking account on thursday, change that to tuesday.", "intent": "transfer", "slots": {"amount": "three hundred", "account": "checking", "day": "tuesday"}}
+{"id": "s2-0243", "category": "D", "text": "Transfer fifty dollars to my checking account on sunday, change that to wednesday.", "intent": "transfer", "slots": {"amount": "fifty", "account": "checking", "day": "wednesday"}}
+{"id": "s2-0244", "category": "D", "text": "Transfer five hundred dollars to my checking account on monday, change that to thursday.", "intent": "transfer", "slots": {"amount": "five hundred", "account": "checking", "day": "thursday"}}
+{"id": "s2-0245", "category": "D", "text": "Transfer fifty dollars to my savings account on saturday, change that to thursday.", "intent": "transfer", "slots": {"amount": "fifty", "account": "savings", "day": "thursday"}}
+{"id": "s2-0246", "category": "D", "text": "Transfer three hundred dollars to my checking account on sunday, change that to tuesday.", "intent": "transfer", "slots": {"amount": "three hundred", "account": "checking", "day": "tuesday"}}
+{"id": "s2-0247", "category": "D", "text": "Transfer two hundred dollars to my checking account on thursday, change that to friday.", "intent": "transfer", "slots": {"amount": "two hundred", "account": "checking", "day": "friday"}}
+{"id": "s2-0248", "category": "D", "text": "Transfer one thousand dollars to my savings account on tuesday, change that to sunday.", "intent": "transfer", "slots": {"amount": "one thousand", "account": "savings", "day": "sunday"}}
+{"id": "s2-0249", "category": "D", "text": "Transfer one thousand dollars to my savings account on tuesday, change that to saturday.", "intent": "transfer", "slots": {"amount": "one thousand", "account": "savings", "day": "saturday"}}
+{"id": "s2-0250", "category": "D", "text": "Transfer two hundred dollars to my savings account on saturday, change that to thursday.", "intent": "transfer", "slots": {"amount": "two hundred", "account": "savings", "day": "thursday"}}
+{"id": "s2-0251", "category": "D", "text": "Transfer one thousand dollars to my checking account on thursday, change that to friday.", "intent": "transfer", "slots": {"amount": "one thousand", "account": "checking", "day": "friday"}}
+{"id": "s2-0252", "category": "D", "text": "Transfer three hundred dollars to my checking account on monday, change that to wednesday.", "intent": "transfer", "slots": {"amount": "three hundred", "account": "checking", "day": "wednesday"}}
+{"id": "s2-0253", "category": "D", "text": "Transfer five hundred dollars to my savings account on thursday, change that to wednesday.", "intent": "transfer", "slots": {"amount": "five hundred", "account": "savings", "day": "wednesday"}}
+{"id": "s2-0254", "category": "D", "text": "Transfer three hundred dollars to my checking account on saturday, change that to thursday.", "intent": "transfer", "slots": {"amount": "three hundred", "account": "checking", "day": "thursday"}}
+{"id": "s2-0255", "category": "D", "text": "Transfer fifty dollars to my checking account on monday, change that to thursday.", "intent": "transfer", "slots": {"amount": "fifty", "account": "checking", "day": "thursday"}}
+{"id": "s2-0256", "category": "D", "text": "Remind me to water the plants every day this week except saturday.", "intent": "reminder", "slots": {"task": "water the plants", "except": "saturday"}}
+{"id": "s2-0257", "category": "D", "text": "Remind me to water the plants every day this week except saturday.", "intent": "reminder", "slots": {"task": "water the plants", "except": "saturday"}}
+{"id": "s2-0258", "category": "D", "text": "Remind me to water the plants every day this week except monday.", "intent": "reminder", "slots": {"task": "water the plants", "except": "monday"}}
+{"id": "s2-0259", "category": "D", "text": "Remind me to water the plants every day this week except wednesday.", "intent": "reminder", "slots": {"task": "water the plants", "except": "wednesday"}}
+{"id": "s2-0260", "category": "D", "text": "Remind me to water the plants every day this week except sunday.", "intent": "reminder", "slots": {"task": "water the plants", "except": "sunday"}}
+{"id": "s2-0261", "category": "D", "text": "Remind me to water the plants every day this week except thursday.", "intent": "reminder", "slots": {"task": "water the plants", "except": "thursday"}}
+{"id": "s2-0262", "category": "D", "text": "Remind me to water the plants every day this week except saturday.", "intent": "reminder", "slots": {"task": "water the plants", "except": "saturday"}}
+{"id": "s2-0263", "category": "D", "text": "Remind me to water the plants every day this week except monday.", "intent": "reminder", "slots": {"task": "water the plants", "except": "monday"}}
+{"id": "s2-0264", "category": "D", "text": "Remind me to water the plants every day this week except wednesday.", "intent": "reminder", "slots": {"task": "water the plants", "except": "wednesday"}}
+{"id": "s2-0265", "category": "D", "text": "Remind me to water the plants every day this week except friday.", "intent": "reminder", "slots": {"task": "water the plants", "except": "friday"}}
+{"id": "s2-0266", "category": "D", "text": "Remind me to water the plants every day this week except monday.", "intent": "reminder", "slots": {"task": "water the plants", "except": "monday"}}
+{"id": "s2-0267", "category": "D", "text": "Remind me to water the plants every day this week except monday.", "intent": "reminder", "slots": {"task": "water the plants", "except": "monday"}}
+{"id": "s2-0268", "category": "D", "text": "Remind me to water the plants every day this week except thursday.", "intent": "reminder", "slots": {"task": "water the plants", "except": "thursday"}}
+{"id": "s2-0269", "category": "D", "text": "Remind me to water the plants every day this week except tuesday.", "intent": "reminder", "slots": {"task": "water the plants", "except": "tuesday"}}
+{"id": "s2-0270", "category": "D", "text": "Remind me to water the plants every day this week except tuesday.", "intent": "reminder", "slots": {"task": "water the plants", "except": "tuesday"}}
+{"id": "s2-0271", "category": "E", "text": "Schedule a meeting with carol, alice and dave at nine a m on thursday.", "intent": "schedule_meeting", "slots": {"attendees": ["carol", "alice", "dave"], "time": "nine a m", "day": "thursday"}}
+{"id": "s2-0272", "category": "E", "text": "Schedule a meeting with frank, erin and dave at six p m on sunday.", "intent": "schedule_meeting", "slots": {"attendees": ["frank", "erin", "dave"], "time": "six p m", "day": "sunday"}}
+{"id": "s2-0273", "category": "E", "text": "Schedule a meeting with carol, erin and dave at nine a m on thursday.", "intent": "schedule_meeting", "slots": {"attendees": ["carol", "erin", "dave"], "time": "nine a m", "day": "thursday"}}
+{"id": "s2-0274", "category": "E", "text": "Schedule a meeting with dave, erin and alice at seven a m on sunday.", "intent": "schedule_meeting", "slots": {"attendees": ["dave", "erin", "alice"], "time": "seven a m", "day": "sunday"}}
+{"id": "s2-0275", "category": "E", "text": "Schedule a meeting with bob, dave and carol at eight a m on saturday.", "intent": "schedule_meeting", "slots": {"attendees": ["bob", "dave", "carol"], "time": "eight a m", "day": "saturday"}}
+{"id": "s2-0276", "category": "E", "text": "Schedule a meeting with alice, bob and dave at nine a m on monday.", "intent": "schedule_meeting", "slots": {"attendees": ["alice", "bob", "dave"], "time": "nine a m", "day": "monday"}}
+{"id": "s2-0277", "category": "E", "text": "Schedule a meeting with carol, bob and erin at six p m on friday.", "intent": "schedule_meeting", "slots": {"attendees": ["carol", "bob", "erin"], "time": "six p m", "day": "friday"}}
+{"id": "s2-0278", "category": "E", "text": "Schedule a meeting with erin, dave and bob at nine a m on monday.", "intent": "schedule_meeting", "slots": {"attendees": ["erin", "dave", "bob"], "time": "nine a m", "day": "monday"}}
+{"id": "s2-0279", "category": "E", "text": "Schedule a meeting with frank, bob and dave at seven a m on tuesday.", "intent": "schedule_meeting", "slots": {"attendees": ["frank", "bob", "dave"], "time": "seven a m", "day": "tuesday"}}
+{"id": "s2-0280", "category": "E", "text": "Schedule a meeting with dave, bob and frank at six p m on monday.", "intent": "schedule_meeting", "slots": {"attendees": ["dave", "bob", "frank"], "time": "six p m", "day": "monday"}}
+{"id": "s2-0281", "category": "E", "text": "Schedule a meeting with dave, erin and bob at eight a m on wednesday.", "intent": "schedule_meeting", "slots": {"attendees": ["dave", "erin", "bob"], "time": "eight a m", "day": "wednesday"}}
+{"id": "s2-0282", "category": "E", "text": "Schedule a meeting with bob, erin and alice at nine a m on friday.", "intent": "schedule_meeting", "slots": {"attendees": ["bob", "erin", "alice"], "time": "nine a m", "day": "friday"}}
+{"id": "s2-0283", "category": "E", "text": "Schedule a meeting with frank, carol and erin at eight a m on wednesday.", "intent": "schedule_meeting", "slots": {"attendees": ["frank", "carol", "erin"], "time": "eight a m", "day": "wednesday"}}
+{"id": "s2-0284", "category": "E", "text": "Schedule a meeting with erin, alice and frank at four p m on friday.", "intent": "schedule_meeting", "slots": {"attendees": ["erin", "alice", "frank"], "time": "four p m", "day": "friday"}}
+{"id": "s2-0285", "category": "E", "text": "Schedule a meeting with dave, bob and erin at five p m on tuesday.", "intent": "schedule_meeting", "slots": {"attendees": ["dave", "bob", "erin"], "time": "five p m", "day": "tuesday"}}
+{"id": "s2-0286", "category": "E", "text": "Schedule a meeting with erin, carol and frank at seven a m on sunday.", "intent": "schedule_meeting", "slots": {"attendees": ["erin", "carol", "frank"], "time": "seven a m", "day": "sunday"}}
+{"id": "s2-0287", "category": "E", "text": "Schedule a meeting with bob, carol and erin at nine a m on wednesday.", "intent": "schedule_meeting", "slots": {"attendees": ["bob", "carol", "erin"], "time": "nine a m", "day": "wednesday"}}
+{"id": "s2-0288", "category": "E", "text": "Schedule a meeting with erin, alice and carol at four p m on monday.", "intent": "schedule_meeting", "slots": {"attendees": ["erin", "alice", "carol"], "time": "four p m", "day": "monday"}}
+{"id": "s2-0289", "category": "E", "text": "Schedule a meeting with carol, alice and erin at nine a m on friday.", "intent": "schedule_meeting", "slots": {"attendees": ["carol", "alice", "erin"], "time": "nine a m", "day": "friday"}}
+{"id": "s2-0290", "category": "E", "text": "Schedule a meeting with bob, carol and erin at six p m on tuesday.", "intent": "schedule_meeting", "slots": {"attendees": ["bob", "carol", "erin"], "time": "six p m", "day": "tuesday"}}
+{"id": "s2-0291", "category": "E", "text": "Schedule a meeting with erin, frank and bob at six p m on sunday.", "intent": "schedule_meeting", "slots": {"attendees": ["erin", "frank", "bob"], "time": "six p m", "day": "sunday"}}
+{"id": "s2-0292", "category": "E", "text": "Schedule a meeting with frank, alice and bob at nine a m on monday.", "intent": "schedule_meeting", "slots": {"attendees": ["frank", "alice", "bob"], "time": "nine a m", "day": "monday"}}
+{"id": "s2-0293", "category": "E", "text": "Schedule a meeting with carol, bob and frank at eight a m on sunday.", "intent": "schedule_meeting", "slots": {"attendees": ["carol", "bob", "frank"], "time": "eight a m", "day": "sunday"}}
+{"id": "s2-0294", "category": "E", "text": "Schedule a meeting with bob, carol and dave at nine a m on tuesday.", "intent": "schedule_meeting", "slots": {"attendees": ["bob", "carol", "dave"], "time": "nine a m", "day": "tuesday"}}
+{"id": "s2-0295", "category": "E", "text": "Schedule a meeting with frank, erin and alice at four p m on monday.", "intent": "schedule_meeting", "slots": {"attendees": ["frank", "erin", "alice"], "time": "four p m", "day": "monday"}}
+{"id": "s2-0296", "category": "E", "text": "Book flights to denver for carol and frank on sunday.", "intent": "book_flight", "slots": {"dest": "denver", "passengers": ["carol", "frank"], "day": "sunday"}}
+{"id": "s2-0297", "category": "E", "text": "Book flights to denver for erin and carol on wednesday.", "intent": "book_flight", "slots": {"dest": "denver", "passengers": ["erin", "carol"], "day": "wednesday"}}
+{"id": "s2-0298", "category": "E", "text": "Book flights to seattle for erin and alice on thursday.", "intent": "book_flight", "slots": {"dest": "seattle", "passengers": ["erin", "alice"], "day": "thursday"}}
+{"id": "s2-0299", "category": "E", "text": "Book flights to chicago for carol and frank on thursday.", "intent": "book_flight", "slots": {"dest": "chicago", "passengers": ["carol", "frank"], "day": "thursday"}}
+{"id": "s2-0300", "category": "E", "text": "Book flights to seattle for dave and frank on monday.", "intent": "book_flight", "slots": {"dest": "seattle", "passengers": ["dave", "frank"], "day": "monday"}}
+{"id": "s2-0301", "category": "E", "text": "Book flights to seattle for bob and alice on tuesday.", "intent": "book_flight", "slots": {"dest": "seattle", "passengers": ["bob", "alice"], "day": "tuesday"}}
+{"id": "s2-0302", "category": "E", "text": "Book flights to chicago for frank and carol on friday.", "intent": "book_flight", "slots": {"dest": "chicago", "passengers": ["frank", "carol"], "day": "friday"}}
+{"id": "s2-0303", "category": "E", "text": "Book flights to chicago for dave and frank on wednesday.", "intent": "book_flight", "slots": {"dest": "chicago", "passengers": ["dave", "frank"], "day": "wednesday"}}
+{"id": "s2-0304", "category": "E", "text": "Book flights to seattle for bob and frank on tuesday.", "intent": "book_flight", "slots": {"dest": "seattle", "passengers": ["bob", "frank"], "day": "tuesday"}}
+{"id": "s2-0305", "category": "E", "text": "Book flights to boston for dave and alice on tuesday.", "intent": "book_flight", "slots": {"dest": "boston", "passengers": ["dave", "alice"], "day": "tuesday"}}
+{"id": "s2-0306", "category": "E", "text": "Book flights to chicago for alice and frank on friday.", "intent": "book_flight", "slots": {"dest": "chicago", "passengers": ["alice", "frank"], "day": "friday"}}
+{"id": "s2-0307", "category": "E", "text": "Book flights to boston for erin and frank on saturday.", "intent": "book_flight", "slots": {"dest": "boston", "passengers": ["erin", "frank"], "day": "saturday"}}
+{"id": "s2-0308", "category": "E", "text": "Book flights to chicago for dave and frank on wednesday.", "intent": "book_flight", "slots": {"dest": "chicago", "passengers": ["dave", "frank"], "day": "wednesday"}}
+{"id": "s2-0309", "category": "E", "text": "Book flights to denver for erin and frank on sunday.", "intent": "book_flight", "slots": {"dest": "denver", "passengers": ["erin", "frank"], "day": "sunday"}}
+{"id": "s2-0310", "category": "E", "text": "Book flights to seattle for erin and dave on wednesday.", "intent": "book_flight", "slots": {"dest": "seattle", "passengers": ["erin", "dave"], "day": "wednesday"}}
+{"id": "s2-0311", "category": "E", "text": "Book flights to austin for erin and frank on wednesday.", "intent": "book_flight", "slots": {"dest": "austin", "passengers": ["erin", "frank"], "day": "wednesday"}}
+{"id": "s2-0312", "category": "E", "text": "Book flights to boston for bob and dave on sunday.", "intent": "book_flight", "slots": {"dest": "boston", "passengers": ["bob", "dave"], "day": "sunday"}}
+{"id": "s2-0313", "category": "E", "text": "Book flights to boston for frank and alice on saturday.", "intent": "book_flight", "slots": {"dest": "boston", "passengers": ["frank", "alice"], "day": "saturday"}}
+{"id": "s2-0314", "category": "E", "text": "Book flights to austin for erin and dave on monday.", "intent": "book_flight", "slots": {"dest": "austin", "passengers": ["erin", "dave"], "day": "monday"}}
+{"id": "s2-0315", "category": "E", "text": "Book flights to chicago for dave and carol on thursday.", "intent": "book_flight", "slots": {"dest": "chicago", "passengers": ["dave", "carol"], "day": "thursday"}}
+{"id": "s2-0316", "category": "F", "text": "Transfer thirteen dollars to my checking account.", "intent": "transfer", "slots": {"amount": "thirteen", "account": "checking"}}
+{"id": "s2-0317", "category": "F", "text": "Transfer fifty dollars to my savings account.", "intent": "transfer", "slots": {"amount": "fifty", "account": "savings"}}
+{"id": "s2-0318", "category": "F", "text": "Transfer fourteen dollars to my savings account.", "intent": "transfer", "slots": {"amount": "fourteen", "account": "savings"}}
+{"id": "s2-0319", "category": "F", "text": "Transfer ninety dollars to my checking account.", "intent": "transfer", "slots": {"amount": "ninety", "account": "checking"}}
+{"id": "s2-0320", "category": "F", "text": "Transfer forty dollars to my savings account.", "intent": "transfer", "slots": {"amount": "forty", "account": "savings"}}
+{"id": "s2-0321", "category": "F", "text": "Transfer ninety dollars to my checking account.", "intent": "transfer", "slots": {"amount": "ninety", "account": "checking"}}
+{"id": "s2-0322", "category": "F", "text": "Transfer nineteen dollars to my checking account.", "intent": "transfer", "slots": {"amount": "nineteen", "account": "checking"}}
+{"id": "s2-0323", "category": "F", "text": "Transfer sixteen dollars to my savings account.", "intent": "transfer", "slots": {"amount": "sixteen", "account": "savings"}}
+{"id": "s2-0324", "category": "F", "text": "Transfer fifteen dollars to my checking account.", "intent": "transfer", "slots": {"amount": "fifteen", "account": "checking"}}
+{"id": "s2-0325", "category": "F", "text": "Transfer ninety dollars to my checking account.", "intent": "transfer", "slots": {"amount": "ninety", "account": "checking"}}
+{"id": "s2-0326", "category": "F", "text": "Transfer nineteen dollars to my checking account.", "intent": "transfer", "slots": {"amount": "nineteen", "account": "checking"}}
+{"id": "s2-0327", "category": "F", "text": "Transfer nineteen dollars to my savings account.", "intent": "transfer", "slots": {"amount": "nineteen", "account": "savings"}}
+{"id": "s2-0328", "category": "F", "text": "Transfer fourteen dollars to my checking account.", "intent": "transfer", "slots": {"amount": "fourteen", "account": "checking"}}
+{"id": "s2-0329", "category": "F", "text": "Transfer ninety dollars to my checking account.", "intent": "transfer", "slots": {"amount": "ninety", "account": "checking"}}
+{"id": "s2-0330", "category": "F", "text": "Transfer fifteen dollars to my savings account.", "intent": "transfer", "slots": {"amount": "fifteen", "account": "savings"}}
+{"id": "s2-0331", "category": "F", "text": "Transfer fourteen dollars to my savings account.", "intent": "transfer", "slots": {"amount": "fourteen", "account": "savings"}}
+{"id": "s2-0332", "category": "F", "text": "Transfer forty dollars to my checking account.", "intent": "transfer", "slots": {"amount": "forty", "account": "checking"}}
+{"id": "s2-0333", "category": "F", "text": "Transfer ninety dollars to my savings account.", "intent": "transfer", "slots": {"amount": "ninety", "account": "savings"}}
+{"id": "s2-0334", "category": "F", "text": "Transfer nineteen dollars to my savings account.", "intent": "transfer", "slots": {"amount": "nineteen", "account": "savings"}}
+{"id": "s2-0335", "category": "F", "text": "Transfer forty dollars to my savings account.", "intent": "transfer", "slots": {"amount": "forty", "account": "savings"}}
+{"id": "s2-0336", "category": "F", "text": "Transfer sixteen dollars to my checking account.", "intent": "transfer", "slots": {"amount": "sixteen", "account": "checking"}}
+{"id": "s2-0337", "category": "F", "text": "Transfer fifteen dollars to my savings account.", "intent": "transfer", "slots": {"amount": "fifteen", "account": "savings"}}
+{"id": "s2-0338", "category": "F", "text": "Transfer fourteen dollars to my savings account.", "intent": "transfer", "slots": {"amount": "fourteen", "account": "savings"}}
+{"id": "s2-0339", "category": "F", "text": "Transfer fourteen dollars to my savings account.", "intent": "transfer", "slots": {"amount": "fourteen", "account": "savings"}}
+{"id": "s2-0340", "category": "F", "text": "Transfer ninety dollars to my checking account.", "intent": "transfer", "slots": {"amount": "ninety", "account": "checking"}}
+{"id": "s2-0341", "category": "F", "text": "Set an alarm to transfer thirteen dollars at five o clock.", "intent": "transfer_alarm", "slots": {"amount": "thirteen", "time": "five"}}
+{"id": "s2-0342", "category": "F", "text": "Set an alarm to transfer forty dollars at three o clock.", "intent": "transfer_alarm", "slots": {"amount": "forty", "time": "three"}}
+{"id": "s2-0343", "category": "F", "text": "Set an alarm to transfer ninety dollars at four o clock.", "intent": "transfer_alarm", "slots": {"amount": "ninety", "time": "four"}}
+{"id": "s2-0344", "category": "F", "text": "Set an alarm to transfer sixty dollars at five o clock.", "intent": "transfer_alarm", "slots": {"amount": "sixty", "time": "five"}}
+{"id": "s2-0345", "category": "F", "text": "Set an alarm to transfer nineteen dollars at five o clock.", "intent": "transfer_alarm", "slots": {"amount": "nineteen", "time": "five"}}
+{"id": "s2-0346", "category": "F", "text": "Set an alarm to transfer sixty dollars at four o clock.", "intent": "transfer_alarm", "slots": {"amount": "sixty", "time": "four"}}
+{"id": "s2-0347", "category": "F", "text": "Set an alarm to transfer nineteen dollars at five o clock.", "intent": "transfer_alarm", "slots": {"amount": "nineteen", "time": "five"}}
+{"id": "s2-0348", "category": "F", "text": "Set an alarm to transfer fourteen dollars at five o clock.", "intent": "transfer_alarm", "slots": {"amount": "fourteen", "time": "five"}}
+{"id": "s2-0349", "category": "F", "text": "Set an alarm to transfer sixty dollars at three o clock.", "intent": "transfer_alarm", "slots": {"amount": "sixty", "time": "three"}}
+{"id": "s2-0350", "category": "F", "text": "Set an alarm to transfer fifteen dollars at five o clock.", "intent": "transfer_alarm", "slots": {"amount": "fifteen", "time": "five"}}
+{"id": "s2-0351", "category": "F", "text": "Set an alarm to transfer thirteen dollars at three o clock.", "intent": "transfer_alarm", "slots": {"amount": "thirteen", "time": "three"}}
+{"id": "s2-0352", "category": "F", "text": "Set an alarm to transfer fifteen dollars at three o clock.", "intent": "transfer_alarm", "slots": {"amount": "fifteen", "time": "three"}}
+{"id": "s2-0353", "category": "F", "text": "Set an alarm to transfer fifteen dollars at three o clock.", "intent": "transfer_alarm", "slots": {"amount": "fifteen", "time": "three"}}
+{"id": "s2-0354", "category": "F", "text": "Set an alarm to transfer sixteen dollars at five o clock.", "intent": "transfer_alarm", "slots": {"amount": "sixteen", "time": "five"}}
+{"id": "s2-0355", "category": "F", "text": "Set an alarm to transfer forty dollars at five o clock.", "intent": "transfer_alarm", "slots": {"amount": "forty", "time": "five"}}
+{"id": "s2-0356", "category": "F", "text": "Set an alarm to transfer sixteen dollars at four o clock.", "intent": "transfer_alarm", "slots": {"amount": "sixteen", "time": "four"}}
+{"id": "s2-0357", "category": "F", "text": "Set an alarm to transfer thirteen dollars at three o clock.", "intent": "transfer_alarm", "slots": {"amount": "thirteen", "time": "three"}}
+{"id": "s2-0358", "category": "F", "text": "Set an alarm to transfer ninety dollars at four o clock.", "intent": "transfer_alarm", "slots": {"amount": "ninety", "time": "four"}}
+{"id": "s2-0359", "category": "F", "text": "Set an alarm to transfer fifty dollars at five o clock.", "intent": "transfer_alarm", "slots": {"amount": "fifty", "time": "five"}}
+{"id": "s2-0360", "category": "F", "text": "Set an alarm to transfer fifteen dollars at five o clock.", "intent": "transfer_alarm", "slots": {"amount": "fifteen", "time": "five"}}

@@ -1,0 +1,1155 @@
+{
+ "engine": "vosk",
+ "n_corpus": 360,
+ "n_included": 290,
+ "n_excluded": 70,
+ "excluded": [
+  [
+   "s2-0012",
+   "final parse mismatch: 'book a flight to see apple on thursday' -> None"
+  ],
+  [
+   "s2-0032",
+   "final parse mismatch: 'send the report to aaron' -> None"
+  ],
+  [
+   "s2-0036",
+   "final parse mismatch: 'send the report to else' -> None"
+  ],
+  [
+   "s2-0038",
+   "final parse mismatch: 'send the report to else' -> None"
+  ],
+  [
+   "s2-0039",
+   "final parse mismatch: 'then the report to aaron' -> None"
+  ],
+  [
+   "s2-0043",
+   "final parse mismatch: 'set an alarm for a day am tomorrow morning' -> None"
+  ],
+  [
+   "s2-0046",
+   "final parse mismatch: 'set an alarm frayed am tomorrow morning' -> None"
+  ],
+  [
+   "s2-0051",
+   "final parse mismatch: 'remind me to call day that five pm' -> None"
+  ],
+  [
+   "s2-0052",
+   "final parse mismatch: 'remind me to call or and at nine am' -> None"
+  ],
+  [
+   "s2-0054",
+   "final parse mismatch: 'remind me to call day that four pm' -> None"
+  ],
+  [
+   "s2-0057",
+   "final parse mismatch: 'remind me to call ellis at nine am' -> None"
+  ],
+  [
+   "s2-0058",
+   "final parse mismatch: 'remind me to call ellis at four pm' -> None"
+  ],
+  [
+   "s2-0060",
+   "final parse mismatch: 'remind me to call air and at eight am' -> None"
+  ],
+  [
+   "s2-0069",
+   "final parse mismatch: 'book a flight to chicago on saturday actually make that bastone thursday' -> {'intent': 'book_flight', 'slots': {'dest': 'chicago', 'day': 'thursday'}}"
+  ],
+  [
+   "s2-0087",
+   "final parse mismatch: 'then the report to dave i mean aaron' -> {'intent': 'send_report', 'slots': {'recipient': 'dave'}}"
+  ],
+  [
+   "s2-0095",
+   "final parse mismatch: 'then the report to bob i mean aaron' -> {'intent': 'send_report', 'slots': {'recipient': 'bob'}}"
+  ],
+  [
+   "s2-0098",
+   "final parse mismatch: 'send the report to aaron i mean else' -> None"
+  ],
+  [
+   "s2-0122",
+   "final parse mismatch: 'set an alarm for six pm know for a day am' -> {'intent': 'set_alarm', 'slots': {'time': 'six p m'}}"
+  ],
+  [
+   "s2-0123",
+   "final parse mismatch: 'set an alarm for four pm know for a day am' -> {'intent': 'set_alarm', 'slots': {'time': 'four p m'}}"
+  ],
+  [
+   "s2-0124",
+   "final parse mismatch: 'set an alarm for nine am know for a dm' -> {'intent': 'set_alarm', 'slots': {'time': 'nine a m'}}"
+  ]
+ ],
+ "revision_stats": {
+  "n_with_revision": 213,
+  "n_total": 290,
+  "by_cat": {
+   "A": {
+    "n": 47,
+    "rev": 36
+   },
+   "B": {
+    "n": 76,
+    "rev": 66
+   },
+   "C": {
+    "n": 51,
+    "rev": 25
+   },
+   "D": {
+    "n": 55,
+    "rev": 42
+   },
+   "E": {
+    "n": 16,
+    "rev": 13
+   },
+   "F": {
+    "n": 45,
+    "rev": 31
+   }
+  }
+ },
+ "perK": {
+  "1": {
+   "war": 0.3896551724137931,
+   "war_ci95": [
+    0.33448275862068966,
+    0.44482758620689655
+   ],
+   "mean_saved_ms": 1077.9310344827586,
+   "saved_ci95": [
+    972.4137931034483,
+    1180.706896551724
+   ],
+   "median_saved_ms": 800.0,
+   "frac_speculative": 1.0,
+   "cause_counts": {
+    "incompleteness": 100,
+    "instability": 13,
+    "null": 177
+   },
+   "p3_mean_actions": 1.5586206896551724,
+   "p3_first_wasted_rate": 0.3896551724137931,
+   "p3_final_correct_rate": 1.0,
+   "by_category": {
+    "A": {
+     "n": 47,
+     "war": 0.0,
+     "war_ci95": [
+      0.0,
+      0.0
+     ],
+     "mean_saved_ms": 285.1063829787234,
+     "cause_counts": {
+      "incompleteness": 0,
+      "instability": 0
+     }
+    },
+    "B": {
+     "n": 76,
+     "war": 0.9473684210526315,
+     "war_ci95": [
+      0.8947368421052632,
+      0.9868421052631579
+     ],
+     "mean_saved_ms": 1842.1052631578948,
+     "cause_counts": {
+      "incompleteness": 62,
+      "instability": 10
+     }
+    },
+    "C": {
+     "n": 51,
+     "war": 0.0,
+     "war_ci95": [
+      0.0,
+      0.0
+     ],
+     "mean_saved_ms": 1196.078431372549,
+     "cause_counts": {
+      "incompleteness": 0,
+      "instability": 0
+     }
+    },
+    "D": {
+     "n": 55,
+     "war": 0.7272727272727273,
+     "war_ci95": [
+      0.6181818181818182,
+      0.8363636363636363
+     ],
+     "mean_saved_ms": 1447.2727272727273,
+     "cause_counts": {
+      "incompleteness": 38,
+      "instability": 2
+     }
+    },
+    "E": {
+     "n": 16,
+     "war": 0.0,
+     "war_ci95": [
+      0.0,
+      0.0
+     ],
+     "mean_saved_ms": 112.5,
+     "cause_counts": {
+      "incompleteness": 0,
+      "instability": 0
+     }
+    },
+    "F": {
+     "n": 45,
+     "war": 0.022222222222222223,
+     "war_ci95": [
+      0.0,
+      0.06666666666666667
+     ],
+     "mean_saved_ms": 373.3333333333333,
+     "cause_counts": {
+      "incompleteness": 0,
+      "instability": 1
+     }
+    }
+   }
+  },
+  "2": {
+   "war": 0.38620689655172413,
+   "war_ci95": [
+    0.33448275862068966,
+    0.44146551724137884
+   ],
+   "mean_saved_ms": 897.2413793103449,
+   "saved_ci95": [
+    803.448275862069,
+    995.1896551724137
+   ],
+   "median_saved_ms": 600.0,
+   "frac_speculative": 0.9413793103448276,
+   "cause_counts": {
+    "incompleteness": 98,
+    "instability": 14,
+    "null": 178
+   },
+   "p3_mean_actions": 1.5379310344827586,
+   "p3_first_wasted_rate": 0.38620689655172413,
+   "p3_final_correct_rate": 1.0,
+   "by_category": {
+    "A": {
+     "n": 47,
+     "war": 0.0,
+     "war_ci95": [
+      0.0,
+      0.0
+     ],
+     "mean_saved_ms": 153.19148936170214,
+     "cause_counts": {
+      "incompleteness": 0,
+      "instability": 0
+     }
+    },
+    "B": {
+     "n": 76,
+     "war": 0.9342105263157895,
+     "war_ci95": [
+      0.881578947368421,
+      0.9868421052631579
+     ],
+     "mean_saved_ms": 1631.578947368421,
+     "cause_counts": {
+      "incompleteness": 60,
+      "instability": 11
+     }
+    },
+    "C": {
+     "n": 51,
+     "war": 0.0,
+     "war_ci95": [
+      0.0,
+      0.0
+     ],
+     "mean_saved_ms": 1015.6862745098039,
+     "cause_counts": {
+      "incompleteness": 0,
+      "instability": 0
+     }
+    },
+    "D": {
+     "n": 55,
+     "war": 0.7272727272727273,
+     "war_ci95": [
+      0.6,
+      0.8545454545454545
+     ],
+     "mean_saved_ms": 1254.5454545454545,
+     "cause_counts": {
+      "incompleteness": 38,
+      "instability": 2
+     }
+    },
+    "E": {
+     "n": 16,
+     "war": 0.0,
+     "war_ci95": [
+      0.0,
+      0.0
+     ],
+     "mean_saved_ms": 25.0,
+     "cause_counts": {
+      "incompleteness": 0,
+      "instability": 0
+     }
+    },
+    "F": {
+     "n": 45,
+     "war": 0.022222222222222223,
+     "war_ci95": [
+      0.0,
+      0.06666666666666667
+     ],
+     "mean_saved_ms": 173.33333333333334,
+     "cause_counts": {
+      "incompleteness": 0,
+      "instability": 1
+     }
+    }
+   }
+  },
+  "3": {
+   "war": 0.38275862068965516,
+   "war_ci95": [
+    0.3275862068965517,
+    0.4379310344827586
+   ],
+   "mean_saved_ms": 737.2413793103449,
+   "saved_ci95": [
+    646.8793103448276,
+    826.8965517241379
+   ],
+   "median_saved_ms": 400.0,
+   "frac_speculative": 0.8689655172413793,
+   "cause_counts": {
+    "incompleteness": 101,
+    "instability": 10,
+    "null": 179
+   },
+   "p3_mean_actions": 1.5034482758620689,
+   "p3_first_wasted_rate": 0.38275862068965516,
+   "p3_final_correct_rate": 1.0,
+   "by_category": {
+    "A": {
+     "n": 47,
+     "war": 0.0,
+     "war_ci95": [
+      0.0,
+      0.0
+     ],
+     "mean_saved_ms": 68.08510638297872,
+     "cause_counts": {
+      "incompleteness": 0,
+      "instability": 0
+     }
+    },
+    "B": {
+     "n": 76,
+     "war": 0.9342105263157895,
+     "war_ci95": [
+      0.868421052631579,
+      0.9868421052631579
+     ],
+     "mean_saved_ms": 1436.842105263158,
+     "cause_counts": {
+      "incompleteness": 63,
+      "instability": 8
+     }
+    },
+    "C": {
+     "n": 51,
+     "war": 0.0,
+     "war_ci95": [
+      0.0,
+      0.0
+     ],
+     "mean_saved_ms": 850.9803921568628,
+     "cause_counts": {
+      "incompleteness": 0,
+      "instability": 0
+     }
+    },
+    "D": {
+     "n": 55,
+     "war": 0.7272727272727273,
+     "war_ci95": [
+      0.6,
+      0.8363636363636363
+     ],
+     "mean_saved_ms": 1040.0,
+     "cause_counts": {
+      "incompleteness": 38,
+      "instability": 2
+     }
+    },
+    "E": {
+     "n": 16,
+     "war": 0.0,
+     "war_ci95": [
+      0.0,
+      0.0
+     ],
+     "mean_saved_ms": 0.0,
+     "cause_counts": {
+      "incompleteness": 0,
+      "instability": 0
+     }
+    },
+    "F": {
+     "n": 45,
+     "war": 0.0,
+     "war_ci95": [
+      0.0,
+      0.0
+     ],
+     "mean_saved_ms": 17.77777777777778,
+     "cause_counts": {
+      "incompleteness": 0,
+      "instability": 0
+     }
+    }
+   }
+  },
+  "4": {
+   "war": 0.3758620689655172,
+   "war_ci95": [
+    0.32068965517241377,
+    0.43103448275862066
+   ],
+   "mean_saved_ms": 611.0344827586207,
+   "saved_ci95": [
+    526.8965517241379,
+    694.4999999999999
+   ],
+   "median_saved_ms": 200.0,
+   "frac_speculative": 0.7241379310344828,
+   "cause_counts": {
+    "incompleteness": 98,
+    "instability": 11,
+    "null": 181
+   },
+   "p3_mean_actions": 1.486206896551724,
+   "p3_first_wasted_rate": 0.3758620689655172,
+   "p3_final_correct_rate": 1.0,
+   "by_category": {
+    "A": {
+     "n": 47,
+     "war": 0.0,
+     "war_ci95": [
+      0.0,
+      0.0
+     ],
+     "mean_saved_ms": 38.297872340425535,
+     "cause_counts": {
+      "incompleteness": 0,
+      "instability": 0
+     }
+    },
+    "B": {
+     "n": 76,
+     "war": 0.9078947368421053,
+     "war_ci95": [
+      0.8421052631578947,
+      0.9736842105263158
+     ],
+     "mean_saved_ms": 1221.0526315789473,
+     "cause_counts": {
+      "incompleteness": 60,
+      "instability": 9
+     }
+    },
+    "C": {
+     "n": 51,
+     "war": 0.0,
+     "war_ci95": [
+      0.0,
+      0.0
+     ],
+     "mean_saved_ms": 690.1960784313726,
+     "cause_counts": {
+      "incompleteness": 0,
+      "instability": 0
+     }
+    },
+    "D": {
+     "n": 55,
+     "war": 0.7272727272727273,
+     "war_ci95": [
+      0.6181818181818182,
+      0.8363636363636363
+     ],
+     "mean_saved_ms": 861.8181818181819,
+     "cause_counts": {
+      "incompleteness": 38,
+      "instability": 2
+     }
+    },
+    "E": {
+     "n": 16,
+     "war": 0.0,
+     "war_ci95": [
+      0.0,
+      0.0
+     ],
+     "mean_saved_ms": 0.0,
+     "cause_counts": {
+      "incompleteness": 0,
+      "instability": 0
+     }
+    },
+    "F": {
+     "n": 45,
+     "war": 0.0,
+     "war_ci95": [
+      0.0,
+      0.0
+     ],
+     "mean_saved_ms": 0.0,
+     "cause_counts": {
+      "incompleteness": 0,
+      "instability": 0
+     }
+    }
+   }
+  },
+  "5": {
+   "war": 0.3689655172413793,
+   "war_ci95": [
+    0.3103448275862069,
+    0.42422413793103403
+   ],
+   "mean_saved_ms": 492.41379310344826,
+   "saved_ci95": [
+    419.2931034482759,
+    566.2241379310344
+   ],
+   "median_saved_ms": 0.0,
+   "frac_speculative": 0.5551724137931034,
+   "cause_counts": {
+    "incompleteness": 88,
+    "instability": 19,
+    "null": 183
+   },
+   "p3_mean_actions": 1.4655172413793103,
+   "p3_first_wasted_rate": 0.3689655172413793,
+   "p3_final_correct_rate": 1.0,
+   "by_category": {
+    "A": {
+     "n": 47,
+     "war": 0.0,
+     "war_ci95": [
+      0.0,
+      0.0
+     ],
+     "mean_saved_ms": 8.51063829787234,
+     "cause_counts": {
+      "incompleteness": 0,
+      "instability": 0
+     }
+    },
+    "B": {
+     "n": 76,
+     "war": 0.881578947368421,
+     "war_ci95": [
+      0.8026315789473685,
+      0.9473684210526315
+     ],
+     "mean_saved_ms": 1042.1052631578948,
+     "cause_counts": {
+      "incompleteness": 53,
+      "instability": 14
+     }
+    },
+    "C": {
+     "n": 51,
+     "war": 0.0,
+     "war_ci95": [
+      0.0,
+      0.0
+     ],
+     "mean_saved_ms": 529.4117647058823,
+     "cause_counts": {
+      "incompleteness": 0,
+      "instability": 0
+     }
+    },
+    "D": {
+     "n": 55,
+     "war": 0.7272727272727273,
+     "war_ci95": [
+      0.6,
+      0.8363636363636363
+     ],
+     "mean_saved_ms": 658.1818181818181,
+     "cause_counts": {
+      "incompleteness": 35,
+      "instability": 5
+     }
+    },
+    "E": {
+     "n": 16,
+     "war": 0.0,
+     "war_ci95": [
+      0.0,
+      0.0
+     ],
+     "mean_saved_ms": 0.0,
+     "cause_counts": {
+      "incompleteness": 0,
+      "instability": 0
+     }
+    },
+    "F": {
+     "n": 45,
+     "war": 0.0,
+     "war_ci95": [
+      0.0,
+      0.0
+     ],
+     "mean_saved_ms": 0.0,
+     "cause_counts": {
+      "incompleteness": 0,
+      "instability": 0
+     }
+    }
+   }
+  }
+ },
+ "perK_fw_subset": {
+  "1": {
+   "war": 0.3333333333333333,
+   "war_ci95": [
+    0.24509803921568626,
+    0.43137254901960786
+   ],
+   "mean_saved_ms": 954.9019607843137,
+   "saved_ci95": [
+    784.264705882353,
+    1133.3823529411761
+   ],
+   "median_saved_ms": 600.0,
+   "frac_speculative": 1.0,
+   "cause_counts": {
+    "incompleteness": 27,
+    "instability": 7,
+    "null": 68
+   },
+   "p3_mean_actions": 1.4705882352941178,
+   "p3_first_wasted_rate": 0.3333333333333333,
+   "p3_final_correct_rate": 1.0,
+   "by_category": {
+    "A": {
+     "n": 16,
+     "war": 0.0,
+     "war_ci95": [
+      0.0,
+      0.0
+     ],
+     "mean_saved_ms": 262.5,
+     "cause_counts": {
+      "incompleteness": 0,
+      "instability": 0
+     }
+    },
+    "B": {
+     "n": 19,
+     "war": 1.0,
+     "war_ci95": [
+      1.0,
+      1.0
+     ],
+     "mean_saved_ms": 1757.8947368421052,
+     "cause_counts": {
+      "incompleteness": 14,
+      "instability": 5
+     }
+    },
+    "C": {
+     "n": 19,
+     "war": 0.0,
+     "war_ci95": [
+      0.0,
+      0.0
+     ],
+     "mean_saved_ms": 1178.9473684210527,
+     "cause_counts": {
+      "incompleteness": 0,
+      "instability": 0
+     }
+    },
+    "D": {
+     "n": 19,
+     "war": 0.7368421052631579,
+     "war_ci95": [
+      0.5263157894736842,
+      0.8947368421052632
+     ],
+     "mean_saved_ms": 1526.3157894736842,
+     "cause_counts": {
+      "incompleteness": 13,
+      "instability": 1
+     }
+    },
+    "E": {
+     "n": 9,
+     "war": 0.0,
+     "war_ci95": [
+      0.0,
+      0.0
+     ],
+     "mean_saved_ms": 88.88888888888889,
+     "cause_counts": {
+      "incompleteness": 0,
+      "instability": 0
+     }
+    },
+    "F": {
+     "n": 20,
+     "war": 0.05,
+     "war_ci95": [
+      0.0,
+      0.15
+     ],
+     "mean_saved_ms": 380.0,
+     "cause_counts": {
+      "incompleteness": 0,
+      "instability": 1
+     }
+    }
+   }
+  },
+  "2": {
+   "war": 0.3333333333333333,
+   "war_ci95": [
+    0.24509803921568626,
+    0.4215686274509804
+   ],
+   "mean_saved_ms": 782.3529411764706,
+   "saved_ci95": [
+    623.5294117647059,
+    947.1078431372546
+   ],
+   "median_saved_ms": 400.0,
+   "frac_speculative": 0.9215686274509803,
+   "cause_counts": {
+    "incompleteness": 27,
+    "instability": 7,
+    "null": 68
+   },
+   "p3_mean_actions": 1.4705882352941178,
+   "p3_first_wasted_rate": 0.3333333333333333,
+   "p3_final_correct_rate": 1.0,
+   "by_category": {
+    "A": {
+     "n": 16,
+     "war": 0.0,
+     "war_ci95": [
+      0.0,
+      0.0
+     ],
+     "mean_saved_ms": 150.0,
+     "cause_counts": {
+      "incompleteness": 0,
+      "instability": 0
+     }
+    },
+    "B": {
+     "n": 19,
+     "war": 1.0,
+     "war_ci95": [
+      1.0,
+      1.0
+     ],
+     "mean_saved_ms": 1557.8947368421052,
+     "cause_counts": {
+      "incompleteness": 14,
+      "instability": 5
+     }
+    },
+    "C": {
+     "n": 19,
+     "war": 0.0,
+     "war_ci95": [
+      0.0,
+      0.0
+     ],
+     "mean_saved_ms": 989.4736842105264,
+     "cause_counts": {
+      "incompleteness": 0,
+      "instability": 0
+     }
+    },
+    "D": {
+     "n": 19,
+     "war": 0.7368421052631579,
+     "war_ci95": [
+      0.5263157894736842,
+      0.9473684210526315
+     ],
+     "mean_saved_ms": 1336.842105263158,
+     "cause_counts": {
+      "incompleteness": 13,
+      "instability": 1
+     }
+    },
+    "E": {
+     "n": 9,
+     "war": 0.0,
+     "war_ci95": [
+      0.0,
+      0.0
+     ],
+     "mean_saved_ms": 0.0,
+     "cause_counts": {
+      "incompleteness": 0,
+      "instability": 0
+     }
+    },
+    "F": {
+     "n": 20,
+     "war": 0.05,
+     "war_ci95": [
+      0.0,
+      0.15
+     ],
+     "mean_saved_ms": 180.0,
+     "cause_counts": {
+      "incompleteness": 0,
+      "instability": 1
+     }
+    }
+   }
+  },
+  "3": {
+   "war": 0.3235294117647059,
+   "war_ci95": [
+    0.23529411764705882,
+    0.4215686274509804
+   ],
+   "mean_saved_ms": 627.4509803921569,
+   "saved_ci95": [
+    480.34313725490193,
+    782.3529411764706
+   ],
+   "median_saved_ms": 200.0,
+   "frac_speculative": 0.8627450980392157,
+   "cause_counts": {
+    "incompleteness": 28,
+    "instability": 5,
+    "null": 69
+   },
+   "p3_mean_actions": 1.4313725490196079,
+   "p3_first_wasted_rate": 0.3235294117647059,
+   "p3_final_correct_rate": 1.0,
+   "by_category": {
+    "A": {
+     "n": 16,
+     "war": 0.0,
+     "war_ci95": [
+      0.0,
+      0.0
+     ],
+     "mean_saved_ms": 62.5,
+     "cause_counts": {
+      "incompleteness": 0,
+      "instability": 0
+     }
+    },
+    "B": {
+     "n": 19,
+     "war": 1.0,
+     "war_ci95": [
+      1.0,
+      1.0
+     ],
+     "mean_saved_ms": 1357.8947368421052,
+     "cause_counts": {
+      "incompleteness": 15,
+      "instability": 4
+     }
+    },
+    "C": {
+     "n": 19,
+     "war": 0.0,
+     "war_ci95": [
+      0.0,
+      0.0
+     ],
+     "mean_saved_ms": 821.0526315789474,
+     "cause_counts": {
+      "incompleteness": 0,
+      "instability": 0
+     }
+    },
+    "D": {
+     "n": 19,
+     "war": 0.7368421052631579,
+     "war_ci95": [
+      0.5263157894736842,
+      0.9473684210526315
+     ],
+     "mean_saved_ms": 1115.7894736842106,
+     "cause_counts": {
+      "incompleteness": 13,
+      "instability": 1
+     }
+    },
+    "E": {
+     "n": 9,
+     "war": 0.0,
+     "war_ci95": [
+      0.0,
+      0.0
+     ],
+     "mean_saved_ms": 0.0,
+     "cause_counts": {
+      "incompleteness": 0,
+      "instability": 0
+     }
+    },
+    "F": {
+     "n": 20,
+     "war": 0.0,
+     "war_ci95": [
+      0.0,
+      0.0
+     ],
+     "mean_saved_ms": 20.0,
+     "cause_counts": {
+      "incompleteness": 0,
+      "instability": 0
+     }
+    }
+   }
+  },
+  "4": {
+   "war": 0.3235294117647059,
+   "war_ci95": [
+    0.22549019607843138,
+    0.4215686274509804
+   ],
+   "mean_saved_ms": 519.6078431372549,
+   "saved_ci95": [
+    384.3137254901961,
+    664.7058823529412
+   ],
+   "median_saved_ms": 0.0,
+   "frac_speculative": 0.696078431372549,
+   "cause_counts": {
+    "incompleteness": 28,
+    "instability": 5,
+    "null": 69
+   },
+   "p3_mean_actions": 1.4215686274509804,
+   "p3_first_wasted_rate": 0.3235294117647059,
+   "p3_final_correct_rate": 1.0,
+   "by_category": {
+    "A": {
+     "n": 16,
+     "war": 0.0,
+     "war_ci95": [
+      0.0,
+      0.0
+     ],
+     "mean_saved_ms": 37.5,
+     "cause_counts": {
+      "incompleteness": 0,
+      "instability": 0
+     }
+    },
+    "B": {
+     "n": 19,
+     "war": 1.0,
+     "war_ci95": [
+      1.0,
+      1.0
+     ],
+     "mean_saved_ms": 1157.8947368421052,
+     "cause_counts": {
+      "incompleteness": 15,
+      "instability": 4
+     }
+    },
+    "C": {
+     "n": 19,
+     "war": 0.0,
+     "war_ci95": [
+      0.0,
+      0.0
+     ],
+     "mean_saved_ms": 663.1578947368421,
+     "cause_counts": {
+      "incompleteness": 0,
+      "instability": 0
+     }
+    },
+    "D": {
+     "n": 19,
+     "war": 0.7368421052631579,
+     "war_ci95": [
+      0.5263157894736842,
+      0.9473684210526315
+     ],
+     "mean_saved_ms": 936.8421052631579,
+     "cause_counts": {
+      "incompleteness": 13,
+      "instability": 1
+     }
+    },
+    "E": {
+     "n": 9,
+     "war": 0.0,
+     "war_ci95": [
+      0.0,
+      0.0
+     ],
+     "mean_saved_ms": 0.0,
+     "cause_counts": {
+      "incompleteness": 0,
+      "instability": 0
+     }
+    },
+    "F": {
+     "n": 20,
+     "war": 0.0,
+     "war_ci95": [
+      0.0,
+      0.0
+     ],
+     "mean_saved_ms": 0.0,
+     "cause_counts": {
+      "incompleteness": 0,
+      "instability": 0
+     }
+    }
+   }
+  },
+  "5": {
+   "war": 0.3235294117647059,
+   "war_ci95": [
+    0.22549019607843138,
+    0.4215686274509804
+   ],
+   "mean_saved_ms": 398.03921568627453,
+   "saved_ci95": [
+    288.2352941176471,
+    515.6862745098039
+   ],
+   "median_saved_ms": 0.0,
+   "frac_speculative": 0.5098039215686274,
+   "cause_counts": {
+    "incompleteness": 26,
+    "instability": 7,
+    "null": 69
+   },
+   "p3_mean_actions": 1.392156862745098,
+   "p3_first_wasted_rate": 0.3235294117647059,
+   "p3_final_correct_rate": 1.0,
+   "by_category": {
+    "A": {
+     "n": 16,
+     "war": 0.0,
+     "war_ci95": [
+      0.0,
+      0.0
+     ],
+     "mean_saved_ms": 12.5,
+     "cause_counts": {
+      "incompleteness": 0,
+      "instability": 0
+     }
+    },
+    "B": {
+     "n": 19,
+     "war": 1.0,
+     "war_ci95": [
+      1.0,
+      1.0
+     ],
+     "mean_saved_ms": 957.8947368421053,
+     "cause_counts": {
+      "incompleteness": 15,
+      "instability": 4
+     }
+    },
+    "C": {
+     "n": 19,
+     "war": 0.0,
+     "war_ci95": [
+      0.0,
+      0.0
+     ],
+     "mean_saved_ms": 505.2631578947368,
+     "cause_counts": {
+      "incompleteness": 0,
+      "instability": 0
+     }
+    },
+    "D": {
+     "n": 19,
+     "war": 0.7368421052631579,
+     "war_ci95": [
+      0.5263157894736842,
+      0.8947368421052632
+     ],
+     "mean_saved_ms": 663.1578947368421,
+     "cause_counts": {
+      "incompleteness": 11,
+      "instability": 3
+     }
+    },
+    "E": {
+     "n": 9,
+     "war": 0.0,
+     "war_ci95": [
+      0.0,
+      0.0
+     ],
+     "mean_saved_ms": 0.0,
+     "cause_counts": {
+      "incompleteness": 0,
+      "instability": 0
+     }
+    },
+    "F": {
+     "n": 20,
+     "war": 0.0,
+     "war_ci95": [
+      0.0,
+      0.0
+     ],
+     "mean_saved_ms": 0.0,
+     "cause_counts": {
+      "incompleteness": 0,
+      "instability": 0
+     }
+    }
+   }
+  }
+ },
+ "n_subset": 102,
+ "field_error_profile_K2": {
+  "dest": 19,
+  "day": 34,
+  "recipient": 16,
+  "account": 20,
+  "time": 10,
+  "task": 6,
+  "tod": 15,
+  "cc": 10,
+  "amount": 1
+ },
+ "mean_audio_s": 3.3114708333333334
+}
